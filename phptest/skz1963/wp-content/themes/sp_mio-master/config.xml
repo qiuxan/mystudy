@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<tab>
+		<general>
+			<panel title="Header">
+				<wrapper title="Favicon">
+				
+						<module title="Favicon" desc="Upload a Favicon to be included with your site. It is the 16x16 pixels icon you see on the top left of the browser URL"
+						id="favicon" std="" type="upload" />
+						<module />
+				
+				</wrapper>
+				<wrapper title="Tagline Options">
+					
+					<module title="Enable Tagline" desc="Check box to display your tagline which is set in the Wordpress General Settings." id="tagline" std="false" type="checkbox" />
+					<module title="Font Size" desc='All sizes are in pixels.  No need to add "px" at the end.' id="tagline_size" std="13" type="text" handle="#tagline" property="font-size"/>
+					<module title="Font Family" desc="Select the font family for your tagline." id="tagline_font_family" std="" type="select" handle="#tagline" property="font-family" option="font_family" />
+					<module title="Font Color" desc="Select the color for your tagline." id="tagline_color" std="" type="colorpicker" handle="#tagline" property="color" />						
+					<module title="Font Weight" desc="Select the font weight for your tagline." id="tagline_font_weight" std="" type="select" handle="#tagline" property="font-weight" option="font_weight" />					
+					<module title="Font Style" desc="Select the font style for your tagline." id="tagline_style" std="" type="select" handle="#tagline" property="font-style" option="font_style" />
+					
+				</wrapper>
+				<wrapper title="Logo">
+					<module title="Use Image or Text" desc="Select to use an image logo or a text logo" id="site_logo_image_text" std="image" type="radio" option="Image,Text" />
+					<module title="Logo" desc="Upload a logo for your theme, or specify the image address of your online logo. (http://yoursite.com/logo.png) Preferred size 198x80" id="logo_image" std="" type="upload" />
+					<module title="Text Logo Alt Text" desc="To be in compliance of the W3C code standard, ALT tags are used to describe the image and what it does." id="logo_alt_text" std="home" type="text" />					
+												
+					<module title="Site Title" desc="Enter your site name here" id="site_logo_text_title" std="" type="text" />
+					<module title="Font Size" desc='All sizes are in pixels.  No need to add "px" at the end.' id="logo_font_size" std="" type="text" handle="#logo:link,#logo:visited" property="font-size" />
+					<module title="Font Family" desc="Select the font family for your text logo." id="logo_font_family" std="" type="select" handle="#logo:link,#logo:visited" property="font-family" option="font_family" />
+					<module title="Font Color" desc="Select the color for your text logo." id="logo_font_color" std="" type="colorpicker" handle="#logo:link,#logo:visited" property="color" />						
+					<module title="Font Weight" desc="Select the font weight for your logo." id="logo_font_weight" std="" type="select" handle="#logo:link,#logo:visited" property="font-weight" option="font_weight" />					
+					<module title="Font Style" desc="Select the font style for your logo." id="logo_font_style" std="" type="select" handle="#logo:link,#logo:visited" property="font-style" option="font_style" />
+					
+					<module title="Site Title on Hover" desc="Select the text color when mouse hovers over the logo text." id="site_logo_text_title_hover" std="" type="colorpicker" handle="#logo" property="text-hover" />
+									
+				</wrapper>
+				
+			</panel>
+			<panel title="Global Image Options">
+				<wrapper title="Homepage Product Slider" context="wpec_woo">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="homepage_slider_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="homepage_slider_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="homepage_slider_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="homepage_slider_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="homepage_slider_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="homepage_slider_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="homepage_slider_png_transparency" std="" type="checkbox" />
+				</wrapper>
+								
+				<wrapper title="Product Grid View Image" context="wpec_woo">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="product_grid_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="product_grid_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="product_grid_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="product_grid_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="product_grid_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="product_grid_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="product_grid_png_transparency" std="" type="checkbox" />
+				</wrapper>
+
+				<wrapper title="Product List View Image" context="wpec">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="product_list_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="product_list_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="product_list_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="product_list_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="product_list_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="product_list_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="product_list_png_transparency" std="" type="checkbox" />
+				</wrapper>
+								
+				<wrapper title="Product Detail Main Image" context="wpec_woo">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="single_main_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="single_main_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="single_main_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="single_main_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="single_main_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="single_main_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="single_main_png_transparency" std="" type="checkbox" />
+				
+				</wrapper>
+
+				<wrapper title="Product Detail Gallery Image Thumbnail" context="wpec_woo">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="single_gallery_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="single_gallery_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="single_gallery_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="single_gallery_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="single_gallery_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="single_gallery_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="single_gallery_png_transparency" std="" type="checkbox" />
+				</wrapper>
+
+				<wrapper title="Product Also Bought Image" context="wpec">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="also_bought_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="also_bought_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="also_bought_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="also_bought_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="also_bought_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="also_bought_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="also_bought_png_transparency" std="" type="checkbox" />
+				</wrapper>
+
+				<wrapper title="Related Product Image" context="woo">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="related_product_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="related_product_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="related_product_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="related_product_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="related_product_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="related_product_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="related_product_png_transparency" std="" type="checkbox" />
+				
+				</wrapper>
+
+				<wrapper title="Upsell Product Image" context="woo">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="upsell_product_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="upsell_product_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="upsell_product_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="upsell_product_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="upsell_product_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="upsell_product_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="upsell_product_png_transparency" std="" type="checkbox" />
+				
+				</wrapper>
+
+				<wrapper title="Product List Featured Image" context="wpec">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="featured_product_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="featured_product_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="featured_product_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="featured_product_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="featured_product_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="featured_product_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="featured_product_png_transparency" std="" type="checkbox" />
+				</wrapper>
+
+				<wrapper title="Product Category Image" context="wpec_woo">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="product_category_image_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="product_category_image_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="product_category_image_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="product_category_image_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="product_category_image_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="product_category_image_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="product_category_image_png_transparency" std="" type="checkbox" />
+					
+				</wrapper>
+
+				<wrapper title="Product Category Widget Image" context="wpec">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="product_category_widget_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="product_category_widget_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="product_category_widget_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="product_category_widget_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="product_category_widget_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="product_category_widget_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="product_category_widget_png_transparency" std="" type="checkbox" />
+				</wrapper>
+				
+				<wrapper title="Footer Product Image" context="wpec_woo">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="footer_menu_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="footer_menu_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 100)." id="footer_menu_compression" std="100" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="footer_menu_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="footer_menu_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="footer_menu_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="footer_menu_png_transparency" std="" type="checkbox" />
+
+				</wrapper>
+
+				<wrapper title="Blog Listing Image">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="blog_list_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="blog_list_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="blog_list_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="blog_list_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="blog_list_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="blog_list_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="blog_list_png_transparency" std="" type="checkbox" />
+				
+				</wrapper>
+
+				<wrapper title="Blog Single Post Image">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="blog_single_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="blog_single_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="blog_single_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="blog_single_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="blog_single_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="blog_single_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="blog_single_png_transparency" std="" type="checkbox" />
+				
+				</wrapper>
+
+				<wrapper title="Blog Related Post Image">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="blog_related_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="blog_related_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="blog_related_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="blog_related_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="blog_related_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="blog_related_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="blog_related_png_transparency" std="" type="checkbox" />
+				
+				</wrapper>
+
+				<wrapper title="Portfolio Listing Image">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="portfolio_listing_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="portfolio_listing_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="portfolio_listing_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="portfolio_listing_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="portfolio_listing_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="portfolio_listing_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="portfolio_listing_png_transparency" std="" type="checkbox" />
+				
+				</wrapper>
+
+				<wrapper title="Portfolio Single Entry Image">
+					<module title="Image Crop Option" desc="Select the way you want your images to be cropped. The direction you select is the direction it will start the crop from (Default is center out)" id="portfolio_single_crop" std="c" type="select" option="timthumb_crop" />
+					<module title="Zoom and Crop" desc="Select the appropriate zoom and crop options for your images. 0 - Resize to Fit specified dimensions (no cropping). 1 - Crop and resize to best fit the dimensions (default behaviour). 2 - Resize proportionally to fit entire image into specified dimensions, and add borders if required. 3 - Resize proportionally adjusting size of scaled image so there are no borders gaps. (default is 1)" id="portfolio_single_zoomcrop" std="1" type="select" option="timthumb_zoomcrop" />
+					<module title="Image Quality Level" desc="Select the image compression level you desire.  The higher the number the better the image quality but bigger filesize and the lower the number the lower the image quality but smaller filesize. (default is 90)." id="portfolio_single_compression" std="90" type="select" option="timthumb_compression" />
+					<module title="Image Sharpening" desc="Check box to enable image sharpening (default is disabled)." id="portfolio_single_sharpening" std="" type="checkbox" />
+					<module title="Image Background Canvas Color" desc="Pick the color you want for the background canvas color.  This is used when your images are cropped and it does not fill the entire image container. (default is not set)" id="portfolio_single_canvas_color" std="" type="colorpicker" />
+					<module title="Image Filters" desc="Select the different image filter effects you can use (default is none)." id="portfolio_single_filters" std="" type="select" option="timthumb_filters" />
+					<module title="Image PNG Transparency" desc="Check box to enable PNG image transparency when you're using a PNG image and want the background to be transparent. (default is disabled)." id="portfolio_single_png_transparency" std="" type="checkbox" />
+				
+				</wrapper>
+				
+			</panel>
+
+			<panel title="Mobile Settings">
+				<wrapper title="Zooming on Mobile Devices">
+					<module title="Turn On Mobile Ready" desc="Check box to enable your theme to be mobile ready.  This makes your theme responsive." id ="mobile_ready" std="true" type="checkbox" />
+					<module title="Enable Zooming" desc="Check box to enable zooming capabilities on mobile devices (default is ON).  Turning this off will fix the issue of when the device is rotated, the site is initially zoomed in effect. When off, it will also prevent users from pinch to zoom." id="mobile_zoom" std="true" type="checkbox" />
+				</wrapper>
+				<wrapper />
+				
+			</panel>
+			
+			<panel title="Footer">
+				<wrapper title="Footer Copyright Text">
+				
+					<module title="Copyright Text" desc="Enter your copyright information." id="footer_copyright" std="Copyright &amp;copy; Splashing Pixels, All Rights Reserved" type="textarea" />
+					<module title="Font Size" desc='All sizes are in pixels.  No need to add "px" at the end.' id="footer_copyright_font_size" std="" type="text" handle="#footer-copyright" property="font-size" />				
+					<module title="Font Family" desc="Select the font family for your copyright text." id="footer_copyright_font_family" std="" type="select" handle="#footer-copyright" property="font-family" option="font_family" />				
+					<module title="Font Color" desc="Select the color for your copyright text." id="footer_copyright_font_color" std="" type="colorpicker" handle="#footer-copyright" property="color" />				
+					<module title="Font Weight" desc="Select the font weight for your copyright text." id="footer_copyright_font_weight" std="" type="select" handle="#footer-copyright" property="font-weight" option="font_weight" />					
+					<module title="Font Style" desc="Select the font style for your copyright text." id="footer_copyright_font_style" std="" type="select" handle="#footer-copyright" property="font-style" option="font_style" />
+										
+				</wrapper>
+				<wrapper title="Footer Post Rotator">
+					
+					<module title="Footer Post Rotator Count" desc="Select the number of posts you would like to rotate." id="footer_post_rotator_count" std="5" type="select" option="count" option_atr1="1" option_atr2="20" />
+					<module title="Footer Post Rotator Interval" desc="Select the number of seconds you want inbetween each post change. (default is off)" id="footer_post_rotator_interval" std="0" type="select" option="count" option_atr1="3" option_atr2="20" option_atr3="--" />
+					
+				</wrapper>
+			</panel>
+
+			<panel title="Blog">
+				<wrapper title="Related Post Custom Text">
+				
+					<module title="Show Related Posts" desc="Check box to display related posts in the single post page" id="show_related_posts" std="true" type="checkbox" />
+					<module title="Custom Text" desc="Enter the custom title text you would like to show for the Related Post section. (default Related Posts)" id="related_post_text" std="Related Posts" type="text" />
+					
+				</wrapper>
+				<wrapper title="Pagination">
+					<module title="Select Pagination Style" desc="Select the type of pagination style you want for your blog posts. One is paginated by numeration and the other is by next and previous post or posts.  You can also turn all pagination off. (default is next and previous posts)" id="blog_pagination" std="links" type="select" option="custom" option_atr="next-previous,numeration,no-pagination" />
+					<module />	
+				</wrapper>
+				
+			</panel>
+
+			<panel title="Sidebar Layouts">
+				<wrapper title="Sidebar Layout on Product Pages">
+					
+					<module title="Sidebar Orientation" desc="Select the sidebar orientation you want to display (default is right)" id="product_sidebar_orientation" std="sidebar-right" type="select" option="custom" option_atr="sidebar-left,sidebar-right,both-sidebars,no-sidebars" />
+					<module />
+					
+				</wrapper>
+				
+				<wrapper title="Sidebar Layout on Blog Pages">
+
+					<module title="Sidebar Orientation" desc="Select the sidebar orientation you want to display (default is right)" id="blog_sidebar_orientation" std="right" type="select" option="custom" option_atr="sidebar-left,sidebar-right,both-sidebars,no-sidebars" />
+					<module />
+					
+				</wrapper>
+
+				<wrapper title="Sidebar Layout on Pages">
+					
+					<module title="Sidebar Orientation" desc="Select the sidebar orientation you want to display (default is right)" id="page_sidebar_orientation" std="right" type="select" option="custom" option_atr="sidebar-left,sidebar-right,both-sidebars,no-sidebars" />
+					<module />
+					
+				</wrapper>
+			</panel>
+
+			<panel title="Social Media">
+				<wrapper title="RSS">
+				
+					<module title="RSS Feed URL" desc="(Optional) Enter the RSS feed URL if you\'re not using the Wordpress standard feeds. (i.e. Google Feed Burner). This will redirect your feed URL site wide to the one you have set." id="rss_url" std="" type="text" />
+					<module title="Enable RSS Icon" desc="Check box to enable the RSS Icon throughout the site." id="rss_enable" std="true" type="checkbox" />
+				</wrapper>
+
+				<wrapper title="Google Plus One">
+					<module title="Enable Google Plus One Button" desc='Check box to enable button for your posts and products.' id="gplusone_button" std="false" type="checkbox" />
+					<module title="Enable Counter" desc="Check box to enable a counter for the button." id="gplusone_counter" std="true" type="checkbox" />
+					<module title="Size" desc="Choose the size of the button. (Tall mode will always show a counter)" id="gplusone_size" std="standard" type="select" option_atr="small,standard,medium,tall" option="custom" />
+				</wrapper>
+
+				<wrapper title="Google Plus Icon">
+					<module title="Enable Google Plus Icon" desc="Check box to enable your Google Plus Profile to be associated with Google Plus icons througout the site." id="gplus_enable" std="true" type="checkbox" />
+					<module title="Google Plus Profile URL" desc="Enter your Google Plus Profile URL (i.e http://plus.google.com/115445554083854323481)." id="gplus_account" std="" type="text" />
+				</wrapper>
+				
+				<wrapper title="Facebook">
+					<module title="Enable Facebook Like Button" desc='Check box to enable Facebook "like" button for your posts. (This will appear at the bottom of each post)' id="facebook_like_button" std="false" type="checkbox" />
+					<module title="Enable Facebook" desc="Check box to enable your Facebook account to be associated with Facebook icons throughout the site." id="facebook_enable" std="false" type="checkbox" />
+					<module title="Facebook Account" desc="Enter your Facebook account name (i.e. http://facebook.com/splashingpixels)." id="facebook_account" std="" type="text" />
+				</wrapper>
+
+				<wrapper title="Facebook Open Graph">
+					<module title="Facebook Open Graph on Products" desc="Check box to enable Facebook Open Graph feature where if someone clicks on your LIKE button, your product information - including image of the product will be displayed on their Facebook page" id="facebook_opengraph" std="false" type="checkbox" />
+					<module title="Item Type" desc="Type in the product type of the products you which to feature.  Please refer to the custom type you created in your open graph app." id="facebook_opengraph_type" std="" type="text" />
+					<module title="App ID" desc="Enter the ID of the app" id="facebook_opengraph_app_id" std="" type="text" />
+					<module title="Admin ID" desc="Enter the ID of the admin for the Facebook page" id="facebook_opengraph_admin_id" std="" type="text" />
+				</wrapper>
+					
+				<wrapper title="Twitter">
+				
+					<module title="Enable Twitter" desc="Check box to enable your Twitter account to be associated with Twitter icons throughout the site." id="twitter_enable" std="false" type="checkbox" />
+					<module title="Twitter Account" desc="Enter your Twitter account name (i.e. http://twitter.com/splashingpixels).." id="twitter_account" std="" type="text" />
+					
+				</wrapper>
+				
+				<wrapper title="Pinterest">
+					<module title="Enable Pinterest Icon" desc="Check box to enable your Pinterest Profile to be associated with Pinterest icons througout the site." id="pinterest_enable" std="true" type="checkbox" />
+					<module title="Pinterest Profile Name" desc="Enter your Pinterest Profile URL (i.e http://pinterest.com/splashingpixels/)." id="pinterest_account" std="" type="text" />
+				</wrapper>
+				
+				<wrapper title="Flickr">
+				
+					<module title="Enable Flickr" desc="Check box to enable your Flickr account to be associated with Flickr icons throughout the site." id="flickr_enable" std="false" type="checkbox" />
+					<module title="Flickr Account" desc="Enter your Flickr account name (i.e. http://flickr.com/photos/splashingpixels)." id="flickr_account" std="" type="text" />
+				
+				</wrapper>	
+
+				<wrapper title="YouTube">
+					<module title="Enable YouTube Icon" desc="Check box to enable your YouTube Profile to be associated with YouTube icons througout the site." id="youtube_enable" std="false" type="checkbox" />
+					<module title="YouTube Profile Name" desc="Enter your YouTube Profile URL (i.e http://youtube.com/user/splashingpixels/)." id="youtube_account" std="" type="text" />
+				</wrapper>
+			</panel>
+			<panel title="Lightbox Settings">
+				<wrapper title="Lightbox Settings">
+				
+					<module title="Enable Social Tools" desc="Check box to enable Twitter and Facebook Like button to show on lightbox." id="lightbox_social" std="false" type="checkbox" />
+					<module title="Lightbox Theme" desc="Select the lightbox style you want to use." id="lightbox_theme" std="facebook" type="select" option="lightbox_theme" />
+					<module title="Lightbox Slideshow" desc="Checkbox to enable lightbox image slideshow feature." id="lightbox_slideshow" std="false" type="checkbox" />	
+					<module title="Lightbox Gallery Thumnails" desc="Check box to enable gallery thumbnails within the lightbox." id="lightbox_show_overlay_gallery" std="true" type="checkbox" />				
+					<module title="Lightbox Title" desc="Check box to display title within the lightbox." id="lightbox_title" std="true" type="checkbox" />												
+				</wrapper>				
+				<wrapper />
+			</panel>
+			<panel title="Widgets">
+				<wrapper title="Footer Widgets">
+					
+					<module title="Footer Widget Configuration" desc="Select the footer widget configuration you prefer. (Default is Off)" id="footer_widget" std="0" type="footer_widgets" />
+					<module />
+				</wrapper>
+				<wrapper title="Sitewide Widgets">
+					<module title="Enable Sitewide Widgets" desc="Checkbox to enable sitewide widgets.  This is a global setting.  You may override this per page/post." id="sitewide_widget_enable" std="true" type="checkbox" />
+					<module />
+				</wrapper>				
+				<wrapper title="Custom Page Widgets">
+					<module title="Create Widgets for Page" desc="Select the page you want to create custom widgets for" id="custom_page_widget" std="" type="all_pages" />
+					<module />
+				</wrapper>				
+
+				<wrapper title="Custom Blog Category Widgets">
+					<module title="Create Widgets for Blog Category" desc="Select the blog category you want to create custom widgets for" id="custom_blog_category_widget" std="" type="all_blog_categories" />
+					<module />
+				</wrapper>				
+
+				<wrapper title="Custom Product Category Widgets" context="wpec">
+					<module title="Create Widgets for Product Category" desc="Select the product category you want to create custom widgets for" id="custom_product_category_widget" std="" type="all_product_categories" />
+					<module />
+				</wrapper>				
+
+				<wrapper title="Custom Product Category Widgets" context="woo">
+					<module title="Create Widgets for Product Category" desc="Select the product category you want to create custom widgets for" id="custom_product_category_widget" std="" type="woo_all_product_categories" />
+					<module />
+				</wrapper>				
+
+			</panel>
+			<panel title="SEO">
+				<wrapper title="SEO Settings">
+				
+					<module title="Meta Keywords" desc="Enter the keywords for your site. (Separate each keyword with a comma)"  id="seo_keywords" std="" type="textarea" />
+					<module title="Meta Description" desc="Enter the site description." id="seo_description" std="" type="textarea" />
+				
+				</wrapper>
+				<wrapper />
+				
+			</panel>
+			
+			<panel title="WP Login Logo">
+				<wrapper title="Login Logo">
+					
+					<module title="Set Custom Backend Login Logo" desc="Upload the logo you want to display for the backend login section" id="backend_login_logo" std="" type="upload" />
+					<module />
+					
+				</wrapper>
+				<wrapper />
+			</panel>
+			
+			<panel title="Google Analytics">
+				<wrapper title="Google Analytics">
+					
+					<module title="Paste Code" desc="Paste the Google Analytics code provided to you in your Google Analytics account." id="ga" std="" type="textarea" />
+					<module />
+					
+				</wrapper>
+				<wrapper />
+			</panel>
+						
+			<panel title="Custom Scripts">
+				<wrapper title="Custom Scripts">
+				
+					<module title="Header Custom Script Code" desc="Enter your custom JS script here to be loaded in your head section. (Do not include the script tags as they are already added for you)" id="custom_head_scripts" std="" type="textarea" />
+					<module title="Footer Custom Script Code" desc="Enter your custom JS script here to be loaded in your footer section. (Do not include the script tags as they are already added for you)" id="custom_footer_scripts" std="" type="textarea" />
+				
+				</wrapper>
+				<wrapper />
+			
+			</panel>
+						
+			<panel title="Reset Settings">
+				<wrapper title="Master Reset">
+					
+					<module title="Reset All Theme Settings" desc="This will reset all options to their default values." id="theme_reset" std="" type="reset" />
+					<module />
+					
+				</wrapper>
+				<wrapper title="Empty Image Cache Folder">
+				
+					<module title="Empty Image Cache Folder" desc="This will clear out your Timthumb cached images that are on your site in case you have lingering items." id="clear_cache" std="" type="clear_cache" />
+					<module />
+				
+				</wrapper>	
+
+				<wrapper title="Clear all product star ratings" context="wpec">
+					<module title="Clear all product star ratings" desc="This will clear ALL of the product star ratings." id="clear_star_ratings" std="" type="clear_star_ratings" />
+					<module />
+				</wrapper>
+				
+				<wrapper title="Theme and Framework Update Notification">
+				
+					<module title="Hide Update Notification" desc="Check box to hide the system theme and framework update notification" id="hide_msg" std="false" type="checkbox" />
+					<module />
+				
+				</wrapper>				
+			</panel>
+		</general>
+		<styling>
+			<panel title="Skins">
+				<wrapper title="Skin Options">
+					<module desc="Here are 2 predefined skin styles to choose from." type="info" />
+					<module title="Skin" desc="Select your skin. Changing the skin will change the theme stylesheet." id="skins" std="1" skin_count="2" type="skins" />
+					
+				</wrapper>
+				<wrapper />
+			</panel>
+			<panel title="Typography">
+				<wrapper title="Site Preview">
+					<module title="Site Preview" type="site_preview" />
+					<module />
+				</wrapper>
+			
+				<wrapper title="Headings">
+					
+					<module title="Font Family" desc="Select the font family for your headings." id="heading_font_family" std="" type="select" handle="h1, h2, h3, h4, h5, h6" property="font-family" option="font_family" specificity="important" />
+					<module title="Font Color" desc="Select the color for your headings." id="heading_color" std="" type="colorpicker" handle="h1, h2, h3, h4, h5, h6" property="color" specificity="important" />						
+					<module title="Font Weight" desc="Select the font weight for your headings." id="heading_font_weight" std="" type="select" handle="h1, h2, h3, h4, h5, h6" property="font-weight" option="font_weight" specificity="important" />					
+					<module title="Font Style" desc="Select the font style for your headings." id="heading_style" std="" type="select" handle="h1, h2, h3, h4, h5, h6" property="font-style" option="font_style" specificity="important" />
+					
+				</wrapper>
+				<wrapper title="Headings with Link">
+					
+					<module title="Font Family" desc="Select the font family for your headings with link." id="heading_link_font_family" std="" type="select" handle="h1 a, h2 a, h3 a, h4 a, h5 a, h6 a" property="font-family" option="font_family" specificity="important" />
+					<module title="Font Color" desc="Select the color for your headings with link." id="heading_link_color" std="" type="colorpicker" handle="h1 a, h2 a, h3 a, h4 a, h5 a, h6 a" property="color" specificity="important" />			
+					<module title="Font Color on Hover" desc="Select the color for your headings with link on hover." id="heading_link_hover_color" std="" type="colorpicker" handle="h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover" property="color" specificity="important" />														
+					<module title="Font Weight" desc="Select the font weight for your headings with link." id="heading_link_font_weight" std="" type="select" handle="h1 a, h2 a, h3 a, h4 a, h5 a, h6 a" property="font-weight" option="font_weight" specificity="important" />					
+					<module title="Font Style" desc="Select the font style for your headings with link." id="heading_link_style" std="" type="select" handle="h1 a, h2 a, h3 a, h4 a, h5 a, h6 a" property="font-style" option="font_style" specificity="important" />
+					<module title="Font Decoration" desc="Select the font decoration for your headings with link." id="heading_link_decoration" std="" type="select" handle="h1 a, h2 a, h3 a, h4 a, h5 a, h6 a" property="text-decoration" option="text_decoration" specificity="important" />
+					<module title="Font Decoration on Hover" desc="Select the font decoration for your headings with link on hover." id="heading_link_hover_decoration" std="" type="select" handle="h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover" property="text-decoration" option="text_decoration" specificity="important" />
+				</wrapper>
+
+				<wrapper title="Text">
+					
+					<module title="Font Family" desc="Select the font family for your headings." id="text_font_family" std="" type="select" handle="body" property="font-family" option="font_family" specificity="important" />
+					<module title="Font Color" desc="Select the color for your headings." id="text_color" std="" type="colorpicker" handle="body" property="color" specificity="important" />						
+					<module title="Font Weight" desc="Select the font weight for your headings." id="text_font_weight" std="" type="select" handle="body" property="font-weight" option="font_weight" specificity="important" />					
+					<module title="Font Style" desc="Select the font style for your headings." id="text_style" std="" type="select" handle="body" property="font-style" option="font_style" specificity="important" />
+					
+				</wrapper>
+
+				<wrapper title="Links">
+					
+					<module title="Font Family" desc="Select the font family for your links." id="link_font_family" std="" type="select" handle="a, .sidebar .widget-container a:link, .sidebar .widget-container a:visited" property="font-family" option="font_family" specificity="important" />
+					<module title="Font Color" desc="Select the color for your links." id="link_color" std="" type="colorpicker" handle="a, .sidebar .widget-container a:link, .sidebar .widget-container a:visited" property="color" specificity="important" />						
+					<module title="Font Color on Hover" desc="Select the color for your links on hover." id="link_hover_color" std="" type="colorpicker" handle="a:hover, .sidebar .widget-container a:hover, .sidebar .widget-container a:active" property="color" specificity="important" />						
+					<module title="Font Weight" desc="Select the font weight for your links." id="link_font_weight" std="" type="select" handle="a, .sidebar .widget-container a:link, .sidebar .widget-container a:visited" property="font-weight" option="font_weight" specificity="important" />					
+					<module title="Font Style" desc="Select the font style for your links." id="link_style" std="" type="select" handle="a, .sidebar .widget-container a:link, .sidebar .widget-container a:visited" property="font-style" option="font_style" specificity="important" />	
+					<module title="Font Decoration" desc="Select the font decoration for your links." id="link_decoration" std="" type="select" handle="a, .sidebar .widget-container a:link, .sidebar .widget-container a:visited" option="text_decoration" specificity="important" />
+					<module title="Font Decoration on Hover" desc="Select the font decoration for your links on hover." id="link_hover_decoration" std="" type="select" handle="a:hover, .sidebar .widget-container a:hover, .sidebar .widget-container a:active" property="text-decoration" option="text_decoration" specificity="important" />
+								
+				</wrapper>
+				
+			</panel>
+			<panel title="Main Nav">
+				<wrapper title="Main Nav Text Style (Level 1)">
+					<module title="Font Size" desc='All sizes are in pixels.  No need to add "px" at the end.' id="nav_level1_size" std="13" type="text" handle="nav#main-nav > ul > li > a" property="font-size" specificity="important" />
+					<module title="Font Family" desc="Select the font family for your text." id="nav_level1_font_family" std="" type="select" handle="nav#main-nav > ul > li > a" property="font-family" option="font_family" specificity="important" />
+					<module title="Font Color" desc="Select the color for your text." id="nav_level1_color" std="" type="colorpicker" handle="nav#main-nav > ul > li > a" property="color" specificity="important" />						
+					<module title="Font Color on Hover" desc="Select the color of the nav text on hover." id="nav_level1_hover_color" std="" type="colorpicker" handle="nav#main-nav > ul > li:hover > a, nav#main-nav > ul > li > a:hover" property="color" specificity="important" />						
+					<module title="Font Weight" desc="Select the font weight for your text." id="nav_level1_font_weight" std="" type="select" handle="nav#main-nav > ul > li > a" property="font-weight" option="font_weight" specificity="important" />					
+					<module title="Font Style" desc="Select the font style for your text." id="nav_level1_style" std="" type="select" handle="nav#main-nav > ul > li > a" property="font-style" option="font_style" specificity="important" />
+				</wrapper>
+				<wrapper title="Main Nav Text Style (Level 2)">
+					<module title="Font Size" desc='All sizes are in pixels.  No need to add "px" at the end.' id="nav_level2_size" std="13" type="text" handle="nav#main-nav ul ul li a" property="font-size" specificity="important" />
+					<module title="Font Family" desc="Select the font family for your text." id="nav_level2_font_family" std="" type="select" handle="nav#main-nav ul ul li a" property="font-family" option="font_family" specificity="important" />
+					<module title="Font Color" desc="Select the color for your text." id="nav_level2_color" std="" type="colorpicker" handle="nav#main-nav ul ul li a" property="color" specificity="important" />						
+					<module title="Font Color on Hover" desc="Select the color of the nav text on hover." id="nav_level2_hover_color" std="" type="colorpicker" handle="nav#main-nav ul ul > li:hover > a, nav#main-nav ul ul > li > a:hover" property="color" specificity="important" />						
+					<module title="Font Weight" desc="Select the font weight for your text." id="nav_level2_font_weight" std="" type="select" handle="nav#main-nav ul ul li a" property="font-weight" option="font_weight" specificity="important" />					
+					<module title="Font Style" desc="Select the font style for your text." id="nav_level2_style" std="" type="select" handle="nav#main-nav ul ul li a" property="font-style" option="font_style" specificity="important" />
+				</wrapper>
+				<wrapper title="Main Nav Text Style (Level 3)">
+					<module title="Font Size" desc='All sizes are in pixels.  No need to add "px" at the end.' id="nav_level3_size" std="13" type="text" handle="nav#main-nav ul ul ul li a" property="font-size" specificity="important" />
+					<module title="Font Family" desc="Select the font family for your text." id="nav_level3_font_family" std="" type="select" handle="nav#main-nav ul ul ul li a" property="font-family" option="font_family" specificity="important" />
+					<module title="Font Color" desc="Select the color for your text." id="nav_level3_color" std="" type="colorpicker" handle="nav#main-nav ul ul ul li a" property="color" specificity="important" />						
+					<module title="Font Color on Hover" desc="Select the color of the nav text on hover." id="nav_level3_hover_color" std="" type="colorpicker" handle="nav#main-nav ul ul ul > li:hover > a, nav#main-nav ul ul ul > li > a:hover" property="color" specificity="important" />						
+					<module title="Font Weight" desc="Select the font weight for your text." id="nav_level3_font_weight" std="" type="select" handle="nav#main-nav ul ul ul li a" property="font-weight" option="font_weight" specificity="important" />					
+					<module title="Font Style" desc="Select the font style for your text." id="nav_level3_style" std="" type="select" handle="nav#main-nav ul ul ul li a" property="font-style" option="font_style" specificity="important" />
+				</wrapper>
+
+			</panel>
+
+			<panel title="Backgrounds">
+				<wrapper title="Site Preview">
+					<module title="Site Preview" type="site_preview" />
+					<module />
+				</wrapper>
+				
+				<wrapper title="Custom Backgrounds">
+					<module title="Custom Backgrounds" desc="Select a custom background for your site." id="custom_background" std="" type="select" property="background-image" handle="body" option="custom_background" />
+					<module title="Upload Custom Background" desc="Click upload to choose the background image you want to use site wide." id="background_image" std="" type="upload" property="background-image" handle="body" />
+					<module title="Image Position" desc="Choose the position you want your image to start with (i.e. if you choose left, your image will start from the very left edge)." id="background_position" std="" type="select" property="background-position" handle="body" />
+					<module title="Image Repeat" desc="Choose how you want your image to be repeated if using a repeatable tile image. (i.e. if you choose repeat-x, this will repeat your image left to right)." id="background_repeat" std="" type="select" property="background-repeat" handle="body" />
+					<module title="Background Attachment" desc="Select the effect you want your image to have whether it scrolls with the page or fixed in place" id="background_attachment" std="" type="select" property="background-attachment" handle="body" />
+					<module title="Background Color" desc="Choose a background color for your site.  This color compliments the background design you chose if the design is semi-opaque, this background color setting will show through or if your background design does not fill the screen, this background color will fill the rest." id="background_color" std="" type="colorpicker" property="background-color" handle="body" />
+				</wrapper>
+			</panel>	
+			
+		</styling>
+		<wpec>
+			<panel title="Featured Products">
+				<wrapper title="Homepage Product Slider">
+					<module title="Slider Effects" desc="Select the slider effects you want to use.  Please note some setting works in combination with the direction setting and may not all be compatible." id="homepage_slider_effects" std="scroll" type="select" option="custom" option_atr="scroll,directscroll,fade,crossfade,cover,uncover" />	
+					<module title="Slider Direction" desc="Select the direction you want the slide to go on transtion.  Please note only left and right works with responsive layout." id="homepage_slider_direction" std="left" type="select" option="custom" option_atr="left,right,up,down" />						
+					<module title="Auto Time Interval" desc="Choose the amount of time in seconds between slide changes. (default is OFF)" id="homepage_slider_interval" std="8" type="select" option="count" option_atr1="3" option_atr2="20" option_atr3="--" />
+					<module title="Slide Transition Speed" desc="Type in the number in seconds you would like the animation speed to be. (1000 for 1 second -- 200 for 200 milisecond)" id="homepage_slider_transition" std="500" type="text" />	
+					<module title="Easing" desc="Select the easing effect you want when slider transitions in." id="homepage_slider_easing" std="0" type="select" option="easing"/>
+					<module title="Enable Touch Swipe" desc="Check box to enable touch devices to be able to swipe on the carousel to rotate the slides." id="homepage_slider_touchswipe" std="false" type="checkbox" />					
+					<module title="Featured Product 1" desc="Select the product you want to feature." id="homepage_product1" std="" type="select" option="all_products" />
+					<module title="Featured Product 2" desc="Select the product you want to feature." id="homepage_product2" std="" type="select" option="all_products" />
+					<module title="Featured Product 3" desc="Select the product you want to feature." id="homepage_product3" std="" type="select" option="all_products" />
+					<module title="Text Character Cut Off Point" desc="Type in the number in characters that you would like the product description text to be. (i.e. if set to 500, the cut off will happen after 500 characters.)" id="homepage_slider_description_characters" std="500" type="text" />
+					<module title="Denote Character" desc="Type in the characters you would like to use to denote more product description text is available. (i.e. ...)" id="homepage_slider_description_denote" std="..." type="text" />					
+				</wrapper>
+				<wrapper title="Featured Product on Product Page Options">
+					<module title="Text Character Cut Off Point" desc="Type in the number in characters that you would like the featured product description to be. (i.e. if set to 230, the cut off will happen after 230 characters.)" id="product_page_featured_product_characters" std="200" type="text" />
+					<module title="Denote Character" desc="Type in the characters you would like to use to denote more description text is available. (i.e. ...)" id="product_page_featured_product_denote" std="..." type="text" />
+				</wrapper>					
+			</panel>
+			<panel title="Product Options">
+				<wrapper title="Product View">
+					<module title="Product View" desc="Choose your prefered product view." id="product_view" std="default" type="select" option="product_view" />
+					<!--<module title="Grid View Items Per Row" desc="Select the number of items per row to display." id="grid_items" std="4" type="select" option="count" option_atr1="1" option_atr2="10" />-->	
+					<module title="Display Sale Tag" desc='Check box to enable the display of the "Sale Tag" on products that are on sale!' id="saletag" std="true" type="checkbox" />
+					<module title="Show Product Image Gallery" desc="Check box to enable the display of multiple product gallery images under the main product image." id="show_gallery" std="true" type="checkbox" />	
+					<module title="Product Multi Image Swap" desc="Check box to enable product multi image swap for multiview product images. If off, clicking on multi image thumbnail will open a lightbox. (default is ON)" id="wpec_image_swap" std="true" type="checkbox" />	
+					<module title="Product Variation Image Swap" desc="Check box to enable the main product image to be swapped with the variation image when selected." id="variation_image_swap" std="true" type="checkbox" />									
+					<module title="Enable Product View Buttons" desc="Check box to enable the display of product views where users can click between grid or list view." id="product_view_buttons" std="true" type="checkbox" />	
+					<module title="Enable Custom Meta Fields" desc="Check box to enable custom meta fields display on single products page" id="custom_meta_fields" std="" type="checkbox" />
+					<module title="Collapse Tabs on Load" desc="Check box to enable information tabs on the single products page to start in a collapsed state." id="tabs_start_collapsed" std="false" type="checkbox" />
+				</wrapper>
+				<wrapper title="Cross Sales Option">
+					
+					<module title="Cross Sales Custom Text" desc="Type the verbiage you want to appear for your product cross sale section" id="cross_sales_title" std="People who bought this item also bought:" type="text" />
+					<module />
+					
+				</wrapper>
+				
+				<wrapper title="Product Review Comments">
+					
+					<module title="Turn On Product Review" desc="Check box to enable the display of product review comments globally for all products." id="product_review" std="" type="checkbox" />
+					<module />
+					
+				</wrapper>
+				<wrapper title="Product Search Options">
+					<module title="Products Per Page" desc="Enter the number of products per page you would like to show before displaying pagination." id="wpec_search_ppp" std="10" type="text" />
+					<module />
+				</wrapper>				
+			</panel>
+			<panel title="Member Account">
+				<wrapper title="Member Account">
+					<module title="Account Login/Create Form" desc="Check box to enable the optional account login/creation form on checkout page and account page." id="checkout_account" std="true" type="checkbox" />
+					<module />
+				</wrapper>
+				<wrapper />
+			</panel>
+			<panel title="Checkout">
+				<wrapper title="Secured Checkout Icon">
+					<module title="Turn on Icon" desc="Check box to enable the display of the secured icon on the checkout page.  This will give customers a sense of security when purchasing from your site.  Due note that this is not to substitute a real SSL certificate." id="checkout_secured_icon" std="true" type="checkbox" />
+					<module />
+				</wrapper>
+				<wrapper title="SSL Image">
+					<module title="Upload SSL Image" desc="Upload the SSL image provided by your SSL provider." id="checkout_secured_image" std="" type="upload" />
+					<module title="SSL Code" desc="Paste the script code provided by your SSL provider to display the secured image/icon.  Take note that this will take precedence over the uploaded SSL image." id="checkout_secured_code" std="" type="textarea" />
+				</wrapper>
+			</panel>
+			
+		</wpec>
+
+		<woo>
+			<panel title="Featured Products">
+				<wrapper title="Homepage Product Slider">
+					<module title="Slider Effects" desc="Select the slider effects you want to use.  Please note some setting works in combination with the direction setting and may not all be compatible." id="homepage_slider_effects" std="scroll" type="select" option="custom" option_atr="scroll,directscroll,fade,crossfade,cover,uncover" />	
+					<module title="Slider Direction" desc="Select the direction you want the slide to go on transtion.  Please note only left and right works with responsive layout." id="homepage_slider_direction" std="left" type="select" option="custom" option_atr="left,right,up,down" />						
+					<module title="Auto Time Interval" desc="Choose the amount of time in seconds between slide changes. (default is OFF)" id="homepage_slider_interval" std="8" type="select" option="count" option_atr1="3" option_atr2="20" option_atr3="--" />
+					<module title="Slide Transition Speed" desc="Type in the number in seconds you would like the animation speed to be. (1000 for 1 second -- 200 for 200 milisecond)" id="homepage_slider_transition" std="500" type="text" />	
+					<module title="Easing" desc="Select the easing effect you want when slider transitions in." id="homepage_slider_easing" std="0" type="select" option="easing"/>	
+					<module title="Enable Touch Swipe" desc="Check box to enable touch devices to be able to swipe on the carousel to rotate the slides." id="homepage_slider_touchswipe" std="false" type="checkbox" />										
+					<module title="Featured Product 1" desc="Select the product you want to feature." id="homepage_product1" std="" type="select" option="woo_all_products" />
+					<module title="Featured Product 2" desc="Select the product you want to feature." id="homepage_product2" std="" type="select" option="woo_all_products" />
+					<module title="Featured Product 3" desc="Select the product you want to feature." id="homepage_product3" std="" type="select" option="woo_all_products" />
+					<module title="Text Character Cut Off Point" desc="Type in the number in characters that you would like the product description text to be. (i.e. if set to 500, the cut off will happen after 500 characters.)" id="homepage_slider_description_characters" std="500" type="text" />
+					<module title="Denote Character" desc="Type in the characters you would like to use to denote more product description text is available. (i.e. ...)" id="homepage_slider_description_denote" std="..." type="text" />					
+				</wrapper>
+				<wrapper title="Featured Product on Product Page Options">
+					<module title="Text Character Cut Off Point" desc="Type in the number in characters that you would like the featured product description to be. (i.e. if set to 230, the cut off will happen after 230 characters.)" id="product_page_featured_product_characters" std="200" type="text" />
+					<module title="Denote Character" desc="Type in the characters you would like to use to denote more description text is available. (i.e. ...)" id="product_page_featured_product_denote" std="..." type="text" />
+				</wrapper>					
+			</panel>
+			<panel title="Product Options">
+				<wrapper title="Product View">
+					<module title="Display Sale Tag" desc='Check box to enable the display of the "Sale Tag" on products that are on sale!' id="saletag" std="true" type="checkbox" />
+					<module title="Show Product Image Gallery" desc="Check box to enable the display of multiple product gallery images under the main product image." id="show_gallery" std="true" type="checkbox" />
+					<module title="Product Gallery Multi Image Swap" desc="Check box to enable product multi image swap for multiview product images. If off, clicking on multi image thumbnail will open a lightbox. (default is ON)" id="woo_image_swap" std="true" type="checkbox" />	
+					<module title="Products Per Page" desc="Enter how many products per page to display" id="products_per_page" std="6" type="text" />
+				</wrapper>
+				
+				<wrapper title="Related Products and Up Sale Products">
+					<module title="Set Number of Related Products to Display" desc="Enter the number of related products you want to display on the single products page" id="related_product_count" std="4" type="text" />
+					<module title="Related Product Custom Text" desc="Type the title verbiage you want to appear for your related product section" id="related_product_title" std="Related Products:" type="text" />
+					<module title="Set Number of Upsell Products to Display" desc="Enter the number of upsell products you want to display on the single products page" id="upsell_product_count" std="4" type="text" />
+					<module title="Upsell Product Custom Text" desc="Type the title verbiage you want to appear for your upsell product section" id="upsell_product_title" std="You May Also Like:" type="text" />
+				</wrapper>	
+				
+				<wrapper title="Product Rating Stars">
+					<module title="Enable Product Ratings" desc="Check box to enable the display of product rating stars.  Note that it is only for the display and have no relation to the product reviews."  id="product_rating_stars"  std="true" type="checkbox" />
+					<module />
+				</wrapper>	
+				<wrapper title="Product Detail Tabs">
+					<module title="Enable Description Tab" desc="Check box to enable the display of the product description tab in the single product detail page." id="product_description_tab" std="true" type="checkbox" />
+					<module title="Enable Attribute Tab" desc="Check box to enable the display of the product attribute tab in the single product detail page." id="product_attribute_tab" std="true" type="checkbox" />
+					<module title="Enable Product Review Tab" desc="Check box to enable the display of the product review tab in the single product detail page." id="product_review_tab" std="true" type="checkbox" />
+				</wrapper>							
+			</panel>
+			<panel title="Checkout">
+				<wrapper title="Secured Checkout Icon">
+					<module title="Turn on Icon" desc="Check box to enable the display of the secured icon on the checkout page.  This will give customers a sense of security when purchasing from your site.  Due note that this is not to substitute a real SSL certificate." id="checkout_secured_icon" std="true" type="checkbox" />
+					<module />
+				</wrapper>
+				<wrapper title="SSL Image">
+					<module title="Upload SSL Image" desc="Upload the SSL image provided by your SSL provider." id="checkout_secured_image" std="" type="upload" />
+					<module title="SSL Code" desc="Paste the script code provided by your SSL provider to display the secured image/icon.  Take note that this will take precedence over the uploaded SSL image." id="checkout_secured_code" std="" type="textarea" />
+				</wrapper>
+			</panel>
+			
+		</woo>
+		
+		<help>
+			<panel title="FAQ">
+				<wrapper title="FAQ">
+					<module title="Help! Every page is going to page not found!" answer="Go to Wordpress settings->permalinks and click on save TWICE." type="faq" />
+					<module title="Product pages don't seem to be using the theme style." answer="Go to Wordpress settings->store->presentation tab and on the right hand side, click on flush theme cache." type="faq" context="wpec" />
+					<module title="I don't see additional images in quickview or in single product view." answer='First make sure you have Gold Cart plugin installed and activated.  Also make sure you have entered your API key and username for the plugin in Wordpress dashboard->store upgrades.  Then make sure you have turned on "show thumbnail gallery".' type="faq" context="wpec" />
+					<module title="None of the images on the site are displaying." answer="First check to see what permission your timthumb cache folder is set to.  Go to your theme folder->sp-framework->timthumb->cache.  That folder needs to be set to either 755 or 777 depending on your host.  If trying both and it does not work then check with your host if Timthumb script is allowed by default.  If no, ask them to put it on whitelist.  After doing that if it still doesn't work, ask your host if GD library is installed on your PHP.  Also note that Timthumb script will have trouble finding your images if you're under a temporary site url such as http://hostingserver.com/~username.  If you fall under this category, then all you need to do is get a parked domain and point your domain nameservers to your hosting account and have them set it to this parked domain temporarily so you can work on the site." type="faq" />
+					<module title="How do I update the theme and framework?" answer="Go to your Splashing Pixels member dashboard by logging in.  Download the latest version of your theme.  Be sure to backup your existing site files and database prior to updating.  It is also best practice to update it on a test/staging server prior to your live site.  Unzip the newly downloaded zip file which now you should see your theme folder.  Within this folder consists of the framework as well.  Using a FTP program login to your site via FTP.  Put the contents of the theme folder to your current site's theme folder.  So the path should like similar to this /public_html/wp-content/themes/yourtheme/." type="faq" />
+					<module title="How do I customize the CSS without it being overwritten on updates?" answer="If you're just manipulating the CSS, simply create a file called custom_styles.css and place this file inside the theme folder root level.  The theme will know to look into this file for any styles you may wish to add or change." type="faq" />
+					<module title="How come some product or blog post images are displaying an icon with a shopping basket that says no image available?" answer="When you see this image, that means you have not set an image for the product or featured image for the blog post." type="faq" />
+					<module title="Help! I seem to lost all the image size settings in the presentation tab." answer="First try going to the theme options->general settings->reset settings->reset all settings.  If this does not reset all image sizes, then you can manually input them by opening the file config.xml within your theme folder and scrolling all the way down to the bottom and you should see the default image sizes for the whole theme." type="faq" />
+					<module title="I setup a category but when I click on it to see the products, it goes somewhere else!" answer="Wordpress is very sensitive to slugs when using permalinks.  So be sure you're NOT naming for example a blog category Products and also a product category named Products.  By doing this Wordpress will get confused and not display as expected.  Don't confuse slugs with titles.  Titles can have the same name but not slugs.  Slugs is what you see in the permalink URL in the address bar.  In addition, make sure there are no duplicates even if they are in the trash.  You must also clear your trash for this to work." type="faq" />
+					<module title="What the heck is this SP HOME page your theme created?" answer="SP HOME is what drives your theme homepage and is IMPORTANT so please don't delete this.  Also make sure in your settings->reading you have Frontpage displays set to SP HOME.  Don't worry too much about the title SP HOME, you can name this whatever you want.  You may ask why this was not named HOME from the beginning.  That's because we are forward thinking people and considered and did not want to inadvertently delete a page in your site that is already named HOME when you installed our theme." type="faq" />
+					<module title="I am stuck on a certain view settings, what gives?" answer="First don't panic, let me explain. Ok there are 3 views, list/default/grid...That is what WPEC plugin names them but it's actually kind of confusing. The icon switcher is for ONLY default/grid but take note, default is actually called list in the icon switcher. List in the system of WPEC is more for wholesalers...90% of people will only use default/grid. Whatever you set up your settings to be IS what people will see by default. Once they click on the switcher, it will remember each user's settings from page to page so it is very likely you see something different from the next guy. But just know what you set in the backend settings is the default of what they see first if they have never been to your site." type="faq" context="wpec" />
+					<module title="What is this SP Truncate box in my post settings?" answer="This truncate function allows you to customize how many characters you want to display in the excerpt view/blog list view.  Along with that, you can choose to set a denote character to hint there are more information and to set whether you want to cut the characters exactly or to perserve whole word.  This is really an awesome feature as you can set different levels of text post by post control!" type="faq" />
+					<module title="My theme settings does not seem to be saving!" answer="First check that when you click on the SAVE button, you see the spinning logo and a checkmark indicating your changes have been saved.  If you do see the spinning logo and checkmark but it still doesn't save, check if you have other conflicting plugins by deactivating one by one to see which one is the culprit.  If you do not see the checkmark but instead see the no can do sign, then try logging out and logging back in as this will flush your authentication." type="faq" />
+					<module title="How come my images are blurry!?" answer="First check the settings within the theme options->global image options.  This area sets the quality of the images being shown amount many other options.  If after checking these settings propely and you're still getting blurry images, it could mean your image resolution size is too small.  A general size to have for your images before uploading is around 800x800.  You don't want it to small or too large." type="faq" />
+				</wrapper>
+				<wrapper />
+			</panel>
+			<panel />
+		</help>
+	</tab>
+	<init>
+		<!--post image sizes-->
+		<set_post_thumbnail_size width="310" height="80" crop="1" />
+		<post_single_image_size width="565" height="195" crop="1" />
+		<post_related_image_size width="150" height="130" crop="1" />
+		
+		<!--WPEC product image size settings-->
+		<wpec_single_view_image_size width="500" height="500" />
+		<wpec_product_image_size width="132" height="132" />
+		<wpec_image_crop crop="1" />
+		<wpec_featured_product_image_size width="325" height="185" />
+		<wpec_also_bought_image_size width="86" height="86" />
+		
+		<!--WPEC product gallery image-->
+		<wpec_product_gallery_size width="80" height="80" />		
+		
+		<!--WPEC product category image-->
+		<wpec_product_category_size width="200" height="200" />		
+
+		<!--WPEC pagination-->
+		<wpec_pagination enable="1" per_page="12" position="3" /><!--position 1 - top 2 - bottom 3 - both -->
+
+		<!--WPEC turn on add to cart for grid view-->
+		<wpec_gridview_addtocart enable="1" />		
+
+		<!--WPEC turn on show gallery thumbnails-->
+		<wpec_show_gallery enable="1" />		
+
+		<!--WOO product gallery thumbnails-->
+		<woo_product_thumbnail_size width="80" height="80" />
+		
+		<!--WOO product detail main image-->
+		<woo_single_view_image_size width="500" height="500" />
+
+		<!--WOO product listing grid image-->
+		<woo_product_image_size width="132" height="132" />
+
+		<!--WOO product category image-->
+		<woo_product_category_image_size width="86" height="86" />
+		
+		<!--WOO image crop options-->
+		<woo_image_crop crop="1" />
+		
+		<!--WOO related product image size-->
+		<woo_related_product_image_size width="86" height="86" />
+
+		<!--WOO upsell product image size-->
+		<woo_upsell_product_image_size width="86" height="86" />
+
+		<!--portfolio image sizes-->
+		<portfolio_list_size width="940" height="940" />
+		<portfolio_single_size width="940" height="360" />
+		
+		<!--nav menu settings-->
+		<nav_menu title="Header Navigation" name="header" />
+		<nav_menu title="Footer Navigation" name="footer" />
+
+		<!--add pages-->
+		<add_page name="SP Home" file="sp_home.php" content='This is a textarea which you can input your welcome message if you like.  The page to edit is "SP HOME"' />
+		
+	</init>
+</config>

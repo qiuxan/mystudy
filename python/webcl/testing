@@ -1,0 +1,27 @@
+#-*—coding:utf8-*-
+import requests
+import re
+
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
+#hea是我们自己构造的一个字典，里面保存了user-agent
+domain_url='https://www.spotlightstores.com'
+sub_url='https://www.spotlightstores.com/bed/bedding/quilts/c/quilts'
+
+hea = {'User-Agent':'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'}
+
+html = requests.get(sub_url,headers = hea)
+
+html.encoding = 'utf-8' #这一行是将编码转为utf-8否则中文会显示乱码。
+# print html.text
+# title = re.findall('color:#666666;">(.*?)</span>',html.text,re.S)
+# for each in title:
+#     print each
+#
+imgurl = re.findall('id="productdetailimg" src="(.*?)" alt="',html.text,re.S)
+for each in imgurl:
+    each=domain_url+each
+    print each
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="myapp" ng-controller="empcontroller">
+    <form>
+        Employee No. <input type="text" ng-model="empno"/> <br/>
+        First Name <input type="text" ng-model="fname"/> <br/>
+        Last Name <input type="text" ng-model="lname"/> <br/>
+        Department<input type="text" ng-model="dept"/> <br/>
+        <input type="button" value="submit" ng-click="insertdata()"/><br/>
+    </form>
+    <script>
+        var app= angular.module('myapp'，［］)；
+        app.controller('empcontroller'function($scope,$http){
+            $scope.insertdata=function(){
+                $http.post("insert.php",{
+                    'empno':$scope.empno,
+                    'fname':$scope.fname,
+                    'lname':$scope.lname,
+                    'dept':$scope.dept 
+                }).success(function(data,status,headers,config){
+                    console.log("data inserted successful");
+                })；
+            }
+
+        });
+    </script>
+</div>
+</body>
+</html>

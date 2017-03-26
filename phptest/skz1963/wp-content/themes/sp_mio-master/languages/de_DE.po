@@ -1,0 +1,2325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Splashing Pixels Mio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-05 08:48-0800\n"
+"PO-Revision-Date: 2013-09-05 08:48-0800\n"
+"Last-Translator: Pascal Burckhardt [SoMeCo.ch] <info@someco.ch>\n"
+"Language-Team: Splashing Pixels <info@splashingpixels.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+msgid "Not Found"
+msgstr "Not Found"
+
+#: ../404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Entschuldige bitte, aber der von Ihnen angeforderte Seite konnte nicht "
+"gefunden werden. Vielleicht hilft suchen."
+
+#: ../archive.php:26
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:28
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:30
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:32
+msgid "Blog Archives"
+msgstr "Blog-Archiv"
+
+#: ../archive.php:64 ../author.php:62 ../category.php:58 ../index.php:26
+#: ../search.php:59 ../tag.php:52
+msgid "Nothing Found"
+msgstr "nichts gefunden"
+
+#: ../archive.php:68 ../author.php:66 ../category.php:62 ../index.php:30
+#: ../tag.php:56
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Entschuldige bitte, aber es wurde keine Ergebnisse in diesem Archiv "
+"gefunden. Vielleicht hilft suchen um ein Ergebniss zu finden."
+
+#: ../author.php:17
+#, fuzzy, php-format
+msgid "Author Archives: %s"
+msgstr "Blog-Archiv"
+
+#: ../author.php:28
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../category.php:18
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: ../category.php:54 ../comments-product.php:40 ../comments.php:52
+#: ../content-single.php:72 ../sp-framework/functions/shortcodes-tags.php:208
+msgid "Back to Top"
+msgstr ""
+
+#: ../comments-product.php:3 ../comments.php:3
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dieser Beitrag ist Passwort geschützt. Geben Sie das Passwort ein, um alle "
+"Kommentare anzuschauen."
+
+#: ../comments-product.php:15 ../wpsc-single_product.php:257
+msgid "Product Review"
+msgstr "Produkte Beurteilung"
+
+#: ../comments-product.php:18 ../comments-product.php:31
+msgid "&larr; Older Reviews"
+msgstr ""
+
+#: ../comments-product.php:19 ../comments-product.php:32
+msgid "Newer Reviews &rarr;"
+msgstr ""
+
+#: ../comments-product.php:58
+msgid "Leave a Review"
+msgstr "Bewerten"
+
+#: ../comments-product.php:58
+#, fuzzy
+msgid "Post Review"
+msgstr "Produkte Beurteilung"
+
+#: ../comments.php:16
+#, php-format
+msgid "One Response to %2$s"
+msgstr ""
+
+#: ../comments.php:22 ../comments.php:35
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: ../comments.php:23 ../comments.php:36
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../comments.php:45
+msgid "Comments are closed."
+msgstr "Kommentare geschlossen."
+
+#: ../comments.php:59 ../woocommerce/single-product-reviews.php:79
+msgid "Name"
+msgstr "Name"
+
+#: ../comments.php:61 ../woocommerce/single-product-reviews.php:81
+#: ../woocommerce/myaccount/form-login.php:47
+#, fuzzy
+msgid "Email"
+msgstr "E-Mail"
+
+#: ../comments.php:63
+msgid "Website"
+msgstr ""
+
+#: ../content-home.php:6 ../content-page.php:22 ../content-single.php:39
+#: ../content.php:73 ../wpsc-products_page.php:244
+#: ../woocommerce/myaccount/my-address.php:21
+#: ../woocommerce/myaccount/my-address.php:52
+msgid "Edit"
+msgstr ""
+
+#: ../content-page.php:20 ../content-single.php:33 ../content.php:52
+msgid "Pages:"
+msgstr ""
+
+#: ../content-portfolio.php:18 ../content.php:51
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-portfolio.php:72
+msgid "All"
+msgstr ""
+
+#: ../content-portfolio.php:110 ../content-portfolio.php:128
+msgid "Read More"
+msgstr ""
+
+#: ../content-single.php:26
+msgid "by"
+msgstr ""
+
+#: ../content-single.php:37 ../content.php:72
+msgid "Leave a comment"
+msgstr "Kommentieren"
+
+#: ../content-single.php:37 ../content.php:72
+msgid "1 Comment"
+msgstr ""
+
+#: ../content-single.php:37 ../content.php:72
+msgid "% Comments"
+msgstr ""
+
+#: ../content-single.php:55
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../content.php:59
+#, php-format
+msgid ""
+"<span class=\"article-icon\">&nbsp;</span><span class=\"%1$s\">Posted in</"
+"span> %2$s"
+msgstr ""
+"<span class=\"article-icon\">&nbsp;</span><span class=\"%1$s\">Geschrieben "
+"in</span> %2$s"
+
+#: ../content.php:68
+#, php-format
+msgid ""
+"<span class=\"tag-icon\">&nbsp;</span><span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+
+#: ../footer.php:9
+msgid "Latest Blog Post:"
+msgstr "Neuester Blog-Beitrag:"
+
+#: ../footer.php:35 ../footer.php:66 ../wpsc-featured_product.php:36
+#: ../wpsc-grid_view.php:115 ../wpsc-search.php:44
+msgid "More Details"
+msgstr "Mehr Details"
+
+#: ../header.php:30
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../header.php:93 ../sp-also-bought.php:29 ../sp-posts-comments.php:69
+#: ../sp-posts-comments.php:115
+#: ../sp-framework/functions/control-panel-modules.php:17
+#: ../sp-framework/functions/control-panel-modules.php:40
+#: ../sp-framework/functions/control-panel-modules.php:175
+#: ../sp-framework/functions/control-panel-modules.php:204
+#: ../sp-framework/functions/control-panel-modules.php:229
+#: ../sp-framework/functions/control-panel-modules.php:246
+#: ../sp-framework/functions/control-panel-modules.php:285
+#: ../sp-framework/functions/control-panel-modules.php:302
+#: ../sp-framework/functions/control-panel-modules.php:347
+#: ../sp-framework/functions/control-panel-modules.php:366
+#: ../sp-framework/functions/control-panel-modules.php:409
+#: ../sp-framework/functions/control-panel-modules.php:428
+#: ../sp-framework/functions/control-panel-modules.php:686
+#: ../sp-framework/functions/control-panel-modules.php:739
+#: ../sp-framework/functions/control-panel-modules.php:766
+#: ../sp-framework/functions/control-panel-modules.php:791
+#: ../sp-framework/functions/control-panel-modules.php:818
+#: ../sp-framework/functions/control-panel-modules.php:892
+#: ../sp-framework/functions/control-panel-modules.php:910
+#: ../sp-framework/functions/control-panel-modules.php:915
+#: ../sp-framework/functions/control-panel-modules.php:935
+#: ../sp-framework/functions/control-panel-modules.php:952
+#: ../sp-framework/functions/control-panel-modules.php:969
+#: ../sp-framework/functions/control-panel-modules.php:986
+#: ../sp-framework/functions/database.php:231
+#: ../sp-framework/functions/database.php:237
+#: ../sp-framework/functions/theme-setup.php:73
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../header.php:112
+msgid "Your Logo Here"
+msgstr "Ihr Logo hier"
+
+#: ../header.php:127
+msgid "Logout"
+msgstr "Abmelden"
+
+#: ../header.php:127
+msgid "(Logout)"
+msgstr "(Abmelden)"
+
+#: ../header.php:136 ../header.php:164 ../wpsc-cart_widget.php:53
+msgid "Checkout"
+msgstr "Zur Kasse"
+
+#: ../header.php:141 ../header.php:153
+msgid "item"
+msgstr ""
+
+#: ../header.php:143 ../header.php:155
+msgid "items"
+msgstr ""
+
+#: ../header.php:164 ../sp-framework/functions/woo-functions.php:340
+#: ../sp-framework/functions/woo-functions.php:426
+#, fuzzy
+msgid "Cart"
+msgstr "Warenkorb"
+
+#: ../header.php:173 ../woocommerce/checkout/thankyou.php:26
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: ../header.php:173
+#, fuzzy
+msgid "Account"
+msgstr "Mein Konto"
+
+#: ../page.php:15 ../search.php:63
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Sorry, es gibt nichts ,dass Ihren Suchkriterien entsprechen. Bitte versuchen "
+"Sie es erneut mit einem anderen Suchbegriff."
+
+#: ../search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:6
+#, fuzzy
+msgid "Search All"
+msgstr "Suchen"
+
+#: ../searchform.php:10 ../searchform.php:19
+#, fuzzy
+msgid "Search Posts"
+msgstr "Suchen"
+
+#: ../searchform.php:13 ../searchform.php:22
+#, fuzzy
+msgid "Search Products"
+msgstr "Produkt"
+
+#: ../sidebar-left.php:14 ../sidebar-right.php:14
+msgid "Meta"
+msgstr "Meta"
+
+#: ../sp-posts-comments.php:27
+msgid "Read More &gt;"
+msgstr ""
+
+#: ../sp-posts-comments.php:72 ../sp-posts-comments.php:119
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf die Moderation, um freigeschaltet zu werden."
+
+#: ../sp-posts-comments.php:79
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../sp-posts-comments.php:79 ../sp-posts-comments.php:97
+#: ../sp-posts-comments.php:126
+msgid "(Edit)"
+msgstr ""
+
+#: ../sp-posts-comments.php:97
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../sp-posts-comments.php:126
+#, php-format
+msgid "%1$s | %2$s"
+msgstr ""
+
+#: ../sp-posts-comments.php:148
+#, php-format
+msgid ""
+"<span class=\"calendar-icon\">&nbsp;</span>%1$s <span class=\"meta-sep\">by</"
+"span> %2$s"
+msgstr ""
+
+#: ../sp-posts-comments.php:169
+#, php-format
+msgid ""
+"<span class=\"article-icon\">&nbsp;</span>Posted in %1$s <span class=\"tag-"
+"icon\">&nbsp;</span>Tags %2$s. <span class=\"bookmark-icon\">&nbsp;</"
+"span>Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>"
+msgstr ""
+
+#: ../sp-posts-comments.php:171
+#, php-format
+msgid ""
+"<span class=\"article-icon\">&nbsp;</span>Posted in %1$s. <span class="
+"\"bookmark-icon\">&nbsp;</span>Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>"
+msgstr ""
+
+#: ../sp-posts-comments.php:173
+#, php-format
+msgid ""
+"<span class=\"bookmark-icon\">&nbsp;</span>Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>"
+msgstr ""
+
+#: ../sp-posts-comments.php:192
+#, php-format
+msgid ""
+"<p><span class=\"article-icon\">&nbsp;</span>%1$s</p><p><span class=\"tag-"
+"icon\">&nbsp;</span>%2$s.</p>"
+msgstr ""
+
+#: ../sp-posts-comments.php:194
+#, php-format
+msgid "<p><span class=\"article-icon\">&nbsp;</span>%1$s.</p>"
+msgstr ""
+
+#: ../sp-posts-comments.php:196
+#, php-format
+msgid ""
+"<p><span class=\"bookmark-icon\">&nbsp;</span>Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" data-rel=\"bookmark\">permalink</a></p>"
+msgstr ""
+
+#: ../sp-posts-comments.php:234
+msgid "Related Posts"
+msgstr ""
+
+#: ../sp-posts-comments.php:261
+msgid "<span class=\"arrow\">&lt;</span> Older posts"
+msgstr ""
+
+#: ../sp-posts-comments.php:262
+msgid "Newer posts <span class=\"arrow\">&gt;</span>"
+msgstr ""
+
+#: ../sp-widgets.php:19 ../sp-widgets.php:21
+#, php-format
+msgid "Sidebar (%s) Sitewide"
+msgstr ""
+
+#: ../sp-widgets.php:41 ../sp-widgets.php:43
+#, php-format
+msgid "Sidebar (%s) Page: "
+msgstr ""
+
+#: ../sp-widgets.php:67 ../sp-widgets.php:69
+#, php-format
+msgid "Sidebar (%1$s) Blog Category: %2$s"
+msgstr ""
+
+#: ../sp-widgets.php:96 ../sp-widgets.php:98
+#, php-format
+msgid "Sidebar (%1$s) Product Cat: %2$s"
+msgstr ""
+
+#: ../sp-widgets.php:117
+#, php-format
+msgid "Footer Widget %d"
+msgstr ""
+
+#: ../sp-widgets.php:119
+#, php-format
+msgid "Footer Widget Area %d"
+msgstr ""
+
+#: ../sp-widgets.php:130
+msgid "Site Top Widget (Promotions)"
+msgstr ""
+
+#: ../sp-widgets.php:132
+msgid ""
+"Site Top Widget Area for promotional items to be used in conjunction with SP "
+"Promotional Widget"
+msgstr ""
+
+#: ../sp-widgets.php:139
+msgid "Site Bottom Widget (Promotions)"
+msgstr ""
+
+#: ../sp-widgets.php:141
+msgid ""
+"Site Bottom Widget Area for promotional items to be used in conjunction with "
+"SP Promotional Widget"
+msgstr ""
+
+#: ../sp-widgets.php:148
+msgid "Page Top Widget (Promotions)"
+msgstr ""
+
+#: ../sp-widgets.php:150
+msgid ""
+"Page Top Widget Area for promotional items to be used in conjunction with SP "
+"Promotional Widget"
+msgstr ""
+
+#: ../sp-widgets.php:157
+msgid "Page Bottom Widget (Promotions)"
+msgstr ""
+
+#: ../sp-widgets.php:159
+msgid ""
+"Page Bottom Widget Area for promotional items to be used in conjunction with "
+"SP Promotional Widget"
+msgstr ""
+
+#: ../sp_home.php:31 ../sp_home.php:102 ../wpsc-grid_view.php:134
+#: ../wpsc-list_view.php:148 ../wpsc-search.php:63
+msgid "More Info"
+msgstr "Mehr Informationen"
+
+#: ../sp_home.php:39 ../sp_home.php:41 ../sp_home.php:48 ../sp_home.php:110
+#: ../sp_home.php:112 ../sp_home.php:119 ../wpsc-grid_view.php:139
+#: ../wpsc-list_view.php:145 ../wpsc-products_page.php:228
+#: ../wpsc-search.php:68 ../wpsc-single_product.php:180
+msgid "Buy Now"
+msgstr "Jetzt kaufen"
+
+#: ../tag.php:17
+#, fuzzy, php-format
+msgid "Tag Archives: %s"
+msgstr "Blog-Archiv"
+
+#: ../wpsc-cart_widget.php:6 ../woocommerce/cart/cart.php:44
+#: ../woocommerce/checkout/form-pay.php:12
+#: ../woocommerce/checkout/review-order.php:21
+msgid "Product"
+msgstr "Produkt"
+
+#: ../wpsc-cart_widget.php:7 ../woocommerce/checkout/form-pay.php:13
+msgid "Qty"
+msgstr "Anz"
+
+#: ../wpsc-cart_widget.php:8 ../woocommerce/cart/cart.php:45
+msgid "Price"
+msgstr "Preis"
+
+#: ../wpsc-cart_widget.php:38
+#, php-format
+msgid "%d item"
+msgstr ""
+
+#: ../wpsc-cart_widget.php:41 ../woocommerce/cart/cart.php:47
+#: ../woocommerce/checkout/review-order.php:22
+#: ../woocommerce/myaccount/my-orders.php:30
+msgid "Total"
+msgstr "Gesamt"
+
+#: ../wpsc-cart_widget.php:47
+msgid "Postage &amp; Tax "
+msgstr "Porto &amp; MwSt"
+
+#: ../wpsc-cart_widget.php:56
+msgid "Clear cart"
+msgstr "Warenkorb leeren"
+
+#: ../wpsc-cart_widget.php:73 ../sp-framework/functions/woo-functions.php:366
+#: ../sp-framework/functions/woo-functions.php:452
+msgid "Your shopping cart is empty"
+msgstr "Dein Warenkorb ist leer"
+
+#: ../wpsc-cart_widget.php:74
+msgid "Visit the shop"
+msgstr "Besuch den Shop"
+
+#: ../wpsc-grid_view.php:141 ../wpsc-list_view.php:150
+#: ../wpsc-products_page.php:230 ../wpsc-search.php:70
+#: ../wpsc-single_product.php:182
+#: ../woocommerce/single-product/add-to-cart/grouped.php:75
+msgid "Add To Cart"
+msgstr "In den Warenkorb"
+
+#: ../wpsc-grid_view.php:142 ../wpsc-list_view.php:151
+#: ../wpsc-products_page.php:231 ../wpsc-search.php:71
+#: ../wpsc-single_product.php:183
+msgid "Please select product options before adding to cart"
+msgstr ""
+"Bitte wählen Sie die Produkt-Optionen, bevor Sie es in dem Warenkorb "
+"hinzufügen"
+
+#: ../wpsc-grid_view.php:143 ../wpsc-list_view.php:152
+#: ../wpsc-products_page.php:232 ../wpsc-search.php:72
+#: ../wpsc-single_product.php:184
+msgid "Item has been added to your cart!"
+msgstr "Artikel wurde Ihrem Warenkorb hinzugefügt!"
+
+#: ../wpsc-grid_view.php:154 ../wpsc-search.php:83
+msgid "Sorry, sold out!"
+msgstr "Sorry, sausverkauft!"
+
+#: ../wpsc-grid_view.php:190 ../wpsc-list_view.php:175
+#: ../wpsc-products_page.php:291
+msgid "There are no products in this group."
+msgstr "Es gibt keine Produkte in dieser Gruppe."
+
+#: ../wpsc-list_view.php:105 ../wpsc-products_page.php:195
+#: ../wpsc-single_product.php:142
+msgid "Product not in stock"
+msgstr "Produkt nicht am Lage"
+
+#: ../wpsc-list_view.php:131 ../wpsc-single_product.php:132
+#: ../woocommerce/cart/cart.php:46
+msgid "Quantity"
+msgstr "Anzahl"
+
+#: ../wpsc-list_view.php:162 ../wpsc-single_product.php:194
+msgid "This product has sold out."
+msgstr "Dieses Produkt ist ausverkauft."
+
+#: ../wpsc-products_page.php:162 ../wpsc-shopping_cart_page.php:70
+msgid "Quantity:"
+msgstr "Anzahl"
+
+#: ../wpsc-products_page.php:176 ../wpsc-single_product.php:88
+msgid "Personalize Your Product"
+msgstr "Personalisieren Sie Ihr Produkt"
+
+#: ../wpsc-products_page.php:177 ../wpsc-single_product.php:89
+msgid "Complete this form to include a personalized message."
+msgstr ""
+"Füllen Sie dieses Formular aus,  um eine persönliche Nachricht beizufügen."
+
+#: ../wpsc-products_page.php:185 ../wpsc-single_product.php:97
+msgid "Upload a File"
+msgstr "Lade einer Datei hoch"
+
+#: ../wpsc-products_page.php:186 ../wpsc-single_product.php:98
+msgid "Select a file from your computer to include with this purchase."
+msgstr ""
+"Wählen Sie eine Datei von Ihrem Computer aus, um es diesem Kauf beizufügen"
+
+#: ../wpsc-products_page.php:193
+msgid "Product in stock"
+msgstr "Produkt am Lager"
+
+#: ../wpsc-products_page.php:199 ../wpsc-single_product.php:145
+msgid "Donation"
+msgstr "Spende"
+
+#: ../wpsc-products_page.php:210 ../woocommerce/checkout/review-order.php:45
+msgid "Shipping"
+msgstr "Versand"
+
+#: ../wpsc-products_page.php:217
+msgid "You save"
+msgstr "Sie sparen"
+
+#: ../wpsc-shopping_cart_page.php:18
+msgid "Oops, there is nothing in your cart."
+msgstr "Hoppla, es gibt nichts in Ihrem Warenkorb."
+
+#: ../wpsc-shopping_cart_page.php:18
+msgid "Please visit our shop"
+msgstr ""
+
+#: ../wpsc-shopping_cart_page.php:59 ../wpsc-shopping_cart_page.php:615
+#: ../wpsc-transaction_results.php:31 ../wpsc-transaction_results.php:46
+#: ../woocommerce/cart/cart.php:32
+#: ../woocommerce/checkout/form-checkout.php:22
+#: ../woocommerce/checkout/thankyou.php:49
+#: ../woocommerce/checkout/thankyou.php:88
+msgid "Your Cart"
+msgstr "Warenkorb"
+
+#: ../wpsc-shopping_cart_page.php:60 ../wpsc-shopping_cart_page.php:616
+#: ../wpsc-transaction_results.php:32 ../wpsc-transaction_results.php:47
+#: ../woocommerce/cart/cart.php:33
+#: ../woocommerce/checkout/form-checkout.php:23
+#: ../woocommerce/checkout/thankyou.php:50
+#: ../woocommerce/checkout/thankyou.php:89
+msgid "Info"
+msgstr "Info"
+
+#: ../wpsc-shopping_cart_page.php:61 ../wpsc-shopping_cart_page.php:617
+#: ../wpsc-transaction_results.php:33 ../wpsc-transaction_results.php:48
+#: ../woocommerce/cart/cart.php:34
+#: ../woocommerce/checkout/form-checkout.php:24
+#: ../woocommerce/checkout/thankyou.php:51
+#: ../woocommerce/checkout/thankyou.php:90
+msgid "Final"
+msgstr "Bestellung"
+
+#: ../wpsc-shopping_cart_page.php:66 ../woocommerce/cart/cart.php:37
+#, fuzzy
+msgid "Sub-Total:"
+msgstr "Gesamt:"
+
+#: ../wpsc-shopping_cart_page.php:69
+msgid "Product:"
+msgstr "Produkt:"
+
+#: ../wpsc-shopping_cart_page.php:71
+msgid "Price:"
+msgstr "Preis:"
+
+#: ../wpsc-shopping_cart_page.php:72 ../woocommerce/checkout/thankyou.php:68
+msgid "Total:"
+msgstr "Gesamt:"
+
+#: ../wpsc-shopping_cart_page.php:118 ../wpsc-shopping_cart_page.php:150
+msgid "Update"
+msgstr "aktualisieren"
+
+#: ../wpsc-shopping_cart_page.php:130
+msgid "Remove"
+msgstr "entfernen"
+
+#: ../wpsc-shopping_cart_page.php:143
+msgid "Coupon is not valid."
+msgstr "Gutschein ist nicht gültig."
+
+#: ../wpsc-shopping_cart_page.php:148
+#, fuzzy
+msgid "Enter coupon code :"
+msgstr "Gutschein Code eingeben"
+
+#: ../wpsc-shopping_cart_page.php:161
+msgid "Continue"
+msgstr "Fortsetzen"
+
+#: ../wpsc-shopping_cart_page.php:184
+msgid "Calculate Shipping Price"
+msgstr "Berechnet den Versand Preis"
+
+#: ../wpsc-shopping_cart_page.php:188
+#, fuzzy
+msgid "Please specify shipping location below to calculate your shipping costs"
+msgstr "Bitte wählen Sie ein Land aus, um Ihre Versandkosten zu berechnen"
+
+#: ../wpsc-shopping_cart_page.php:196
+msgid "Please provide a Zipcode and click Calculate in order to continue."
+msgstr ""
+"Bitte geben Sie eine Postleitzahl und klicken Sie auf berechnen, um "
+"fortzufahren."
+
+#: ../wpsc-shopping_cart_page.php:202
+msgid ""
+"Sorry, online ordering is unavailable to this destination and/or weight. "
+"Please double check your destination details."
+msgstr ""
+"Leider ist der Online-Bestellung zu diesem Ort nicht verfügbar und / oder "
+"Gewicht zu hoch. Bitte überprüfen Sie Ihr Ziel Ort Details."
+
+#: ../wpsc-shopping_cart_page.php:220
+msgid " - Choose a Shipping Rate"
+msgstr ""
+
+#: ../wpsc-shopping_cart_page.php:267
+msgid "You must sign in or register with us to continue with your purchase."
+msgstr ""
+"Sie müssen sich anmelden oder registrieren, um mit uns mit Ihren Einkauf "
+"fortsetzen können.\""
+
+#: ../wpsc-shopping_cart_page.php:269
+msgid "If you have bought from us before please sign in for a speedy checkout."
+msgstr ""
+"Falls Sie schonmal bei uns eingekauft haben, melden Sie sich an, damit Sie "
+"schnell zahlen können."
+
+#: ../wpsc-shopping_cart_page.php:272
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: ../wpsc-shopping_cart_page.php:290
+#, fuzzy
+msgid "Signing up is free and easy!"
+msgstr "Die Anmeldung ist kostenlos und einfach! Bitte Details angeben"
+
+#: ../wpsc-shopping_cart_page.php:291
+msgid "Join up now"
+msgstr ""
+
+#: ../wpsc-shopping_cart_page.php:293
+#: ../sp-framework/functions/custom-login.php:109
+#, fuzzy
+msgid "Username:"
+msgstr "Benutzername"
+
+#: ../wpsc-shopping_cart_page.php:296
+#: ../sp-framework/functions/custom-login.php:113
+#, fuzzy
+msgid "Password:"
+msgstr "Passwort"
+
+#: ../wpsc-shopping_cart_page.php:299
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: ../wpsc-shopping_cart_page.php:372
+msgid "Same as billing address:"
+msgstr "Gleich wie Rechnungsadresse:"
+
+#: ../wpsc-shopping_cart_page.php:374
+msgid "Your order will be shipped to the billing address"
+msgstr "Ihre Bestellung wird an die Rechnungsadresse versendet werden"
+
+#: ../wpsc-shopping_cart_page.php:418
+msgid "Enter your email address"
+msgstr ""
+
+#: ../wpsc-shopping_cart_page.php:454
+msgid "How did you find us"
+msgstr "Wie haben Sie uns gefunden"
+
+#: ../wpsc-shopping_cart_page.php:457
+msgid "Word of mouth"
+msgstr "Mundpropaganda"
+
+#: ../wpsc-shopping_cart_page.php:458
+msgid "Advertising"
+msgstr "Werbung"
+
+#: ../wpsc-shopping_cart_page.php:459
+msgid "Internet"
+msgstr "Internet"
+
+#: ../wpsc-shopping_cart_page.php:460
+msgid "Existing Customer"
+msgstr "Bestehender Kunde"
+
+#: ../wpsc-shopping_cart_page.php:471
+msgid "Payment Type"
+msgstr "Zahlungsart"
+
+#: ../wpsc-shopping_cart_page.php:506
+#, php-format
+msgid ""
+"I agree to the <a class='thickbox terms_lightbox' target='_blank' "
+"href='%s'>Terms and Conditions</a>"
+msgstr ""
+
+#: ../wpsc-shopping_cart_page.php:516
+#: ../woocommerce/checkout/review-order.php:189
+msgid "SECURED CHECKOUT"
+msgstr "SICHERE KASSE"
+
+#: ../wpsc-shopping_cart_page.php:535
+msgid "Review and purchase"
+msgstr "Überprüfen und kaufen"
+
+#: ../wpsc-shopping_cart_page.php:543
+msgid "Total Shipping:"
+msgstr "Gesamte Versandkosten"
+
+#: ../wpsc-shopping_cart_page.php:552
+msgid "Item Cost:"
+msgstr "Artikelpreis:"
+
+#: ../wpsc-shopping_cart_page.php:575
+msgid "Discount:"
+msgstr "Rabatt:"
+
+#: ../wpsc-shopping_cart_page.php:585
+msgid "Total Price"
+msgstr "Gesamt Preis"
+
+#: ../wpsc-shopping_cart_page.php:593
+msgid "Go Back"
+msgstr "Geh zurück"
+
+#: ../wpsc-shopping_cart_page.php:601
+msgid "Purchase"
+msgstr "Kaufen"
+
+#: ../wpsc-single_product.php:251 ../wpsc-single_product.php:266
+#: ../woocommerce/checkout/form-shipping.php:52
+#: ../woocommerce/single-product/tabs/additional-information.php:14
+msgid "Additional Information"
+msgstr "Weitere Informationen"
+
+#: ../wpsc-user-log.php:31
+msgid ""
+"You must be logged in to use this page. Please use the form below to login "
+"to your account."
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:28
+#: ../sp-framework/functions/class-widgets.php:37
+#, fuzzy
+msgid "SP Product Category"
+msgstr "Produkt nicht am Lage"
+
+#: ../sp-framework/functions/class-widgets.php:31
+msgid ""
+"Custom SP widget to display WPEC product categories in an accordion fashion"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:123
+msgid "Show Categories"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:125
+msgid "(leave all unchecked if you want to display all)"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:129
+#: ../sp-framework/functions/class-widgets.php:237
+#, fuzzy
+msgid "Title:"
+msgstr "Gesamt:"
+
+#: ../sp-framework/functions/class-widgets.php:134
+#, fuzzy
+msgid "Show Product Count in Category"
+msgstr "Produkt nicht am Lage"
+
+#: ../sp-framework/functions/class-widgets.php:150
+msgid "Custom SP widget to filter WPEC products in a price range slider."
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:211
+msgid "Filter"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:253
+msgid "Custom SP widget to display any promotional items."
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:312
+msgid "Select Time Zone:"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:316
+msgid "--Please Select--"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:328
+msgid "Select Start Time:"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:329
+msgid "Select the time you want to start displaying this widget"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:333
+msgid "Select End Time:"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:334
+msgid "Select the time you want to stop displaying this widget"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:338
+#, fuzzy
+msgid "Content:"
+msgstr "Fortsetzen"
+
+#: ../sp-framework/functions/control-panel-modules.php:19
+#: ../sp-framework/functions/control-panel-modules.php:42
+#: ../sp-framework/functions/control-panel-modules.php:111
+#, fuzzy
+msgid "Upload"
+msgstr "Lade einer Datei hoch"
+
+#: ../sp-framework/functions/control-panel-modules.php:23
+#: ../sp-framework/functions/control-panel-modules.php:54
+#: ../sp-framework/functions/control-panel-modules.php:123
+msgid "Current Image:"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:25
+#: ../sp-framework/functions/control-panel-modules.php:85
+#: ../sp-framework/functions/control-panel-modules.php:151
+msgid "Remove current image"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:109
+msgid "Slide Image"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:110
+msgid "Upload the image you want to feature for this slide."
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:152
+msgid "Slide Title"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:153
+msgid "Enter the title you want for this slide."
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:154
+msgid "Slide Text"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:155
+msgid ""
+"Enter the description you want for this slide. (note: long text will be "
+"automatically trimmed to retain style dimensions)"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:156
+msgid "Slide Link"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:157
+msgid "Enter the link you want the slide to direct to."
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:158
+msgid "Slide Link Text"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:223
+msgid ""
+"You can add new custom widgets here per page.  This will allow you to have "
+"different widgets depending on the page you're on.  Once you have generated "
+"all the widgets, you will see new widget containers"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:223
+#: ../sp-framework/functions/control-panel-modules.php:279
+#: ../sp-framework/functions/control-panel-modules.php:341
+#: ../sp-framework/functions/control-panel-modules.php:403
+msgid "here"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:233
+#: ../sp-framework/functions/control-panel-modules.php:250
+msgid "Select a Page"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:241
+#: ../sp-framework/functions/control-panel-modules.php:314
+#: ../sp-framework/functions/control-panel-modules.php:359
+#: ../sp-framework/functions/control-panel-modules.php:376
+#: ../sp-framework/functions/control-panel-modules.php:421
+#: ../sp-framework/functions/control-panel-modules.php:438
+msgid "Delete"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:279
+msgid ""
+"You can add new custom widgets here per blog category.  This will allow you "
+"to have different widgets depending on the category you're on.  Once you "
+"have generated all the widgets, you will see new widget containers"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:289
+#: ../sp-framework/functions/control-panel-modules.php:306
+#: ../sp-framework/functions/control-panel-modules.php:351
+#: ../sp-framework/functions/control-panel-modules.php:369
+#: ../sp-framework/functions/control-panel-modules.php:413
+#: ../sp-framework/functions/control-panel-modules.php:431
+msgid "Select a Category"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:341
+#: ../sp-framework/functions/control-panel-modules.php:403
+msgid ""
+"You can add new custom widgets here per product category page.  This will "
+"allow you to have different widgets depending on the product category page "
+"you're on.  Once you have generated all the widgets, you will see new widget "
+"containers"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:661
+msgid "No Custom Background"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:661
+msgid "Upload Custom Background"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:854
+msgid "Edit Maintenance Page"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:867
+msgid "Here is a rough preview of what your styles look like."
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:870
+msgid "This is a heading"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:871
+msgid "This is a heading with link"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:872
+msgid "This is a heading with link on hover"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:874
+msgid "This is the link color"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:875
+msgid "This is the link color on hover"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:893
+msgid "Reset All Settings"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:916
+msgid "Create Page"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:936
+msgid "Export Settings"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:953
+msgid "Import Settings"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:970
+msgid "Clear Cache Folder"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:987
+#, fuzzy
+msgid "Clear Star Ratings"
+msgstr "Warenkorb leeren"
+
+#: ../sp-framework/functions/control-panel.php:83
+msgid "insert media"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:85
+msgid ""
+"This will overwrite all your settings.  Are you sure you want to import the "
+"theme settings from your last exported state?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:86
+msgid ""
+"If you disable this message, you will no longer receive update notices for "
+"any future updates available.  Are you sure?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:87
+msgid "Are you sure you want to reset to theme default settings?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:88
+msgid "Are you sure you want to empty the image cache folder?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:89
+msgid "Are you sure you want to clear ALL product star ratings?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:90
+msgid "Your image is uploaded, please click on \"Save All\""
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:100
+msgid ""
+"You have selected a Portfolio Template.  To enable portfolio page options, "
+"please save the entry once with publish or save draft."
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:100
+msgid "This function has been disabled as it is not necessary with SP themes"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:140
+msgid "GENERAL"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:140
+#: ../sp-framework/functions/control-panel.php:146
+#: ../sp-framework/functions/control-panel.php:152
+msgid "settings"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:141
+msgid "STYLING"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:141
+#, fuzzy
+msgid "options"
+msgstr "Spende"
+
+#: ../sp-framework/functions/control-panel.php:154
+msgid "HELP?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:478
+msgid "For more support, please go to our site support forums."
+msgstr ""
+
+#: ../sp-framework/functions/custom-login.php:43
+msgid "Please enter your username and password."
+msgstr ""
+
+#: ../sp-framework/functions/custom-login.php:79
+msgid "User does not exist!"
+msgstr ""
+
+#: ../sp-framework/functions/custom-login.php:119
+msgid "Remember me"
+msgstr ""
+
+#: ../sp-framework/functions/custom-login.php:129
+#: ../sp-framework/functions/custom-login.php:147
+msgid "Checking Credentials"
+msgstr ""
+
+#: ../sp-framework/functions/custom-login.php:136
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: ../sp-framework/functions/custom-login.php:139
+msgid "Username or E-mail:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:16
+#: ../sp-framework/functions/custom-meta-boxes.php:24
+msgid "SP WP Auto Formating"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:32
+msgid "SP Excerpt Truncate"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:40
+msgid "SP Variation Image Swap"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:48
+msgid "SP Page Layout"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:56
+msgid "SP Post Layout"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:64
+msgid "SP Portfolio Layout"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:72
+msgid "SP Portfolio Image Sizes"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:86
+msgid "SP Portfolio Options"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:101
+msgid "Homepage Alternate Textarea"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:111
+msgid "Homepage Layout v2"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:132
+msgid "Disable WP Auto Content Formatting:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:132
+msgid ""
+"When disabled, it will prevent Wordpress from automatically injecting break "
+"and paragraph tags which can cause some layout issues.  Mostly used when you "
+"are using HTML mode and want fine control."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:148
+msgid "Disable Truncate Function:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:148
+msgid "Checkbox to disable the auto text truncate function for this post."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:150
+msgid ""
+"This allows you to set the number of characters you want to display in the "
+"blog post listings."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:151
+msgid "Characters to Show:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:151
+msgid ""
+"This is used so that in the blog listing view, your blog post content will "
+"not overflow and be too long. This serves as an excerpt."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:152
+msgid "The Denote Character to Use:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:152
+msgid ""
+"This character denotation is used to signify there are more text to be "
+"displayed."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:153
+msgid "Precision Truncate:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:153
+msgid ""
+"Turning this on means it will cut off the text exactly at the characters you "
+"set above.  If you leave it off, it will automatically estimate where the "
+"word should be cut off to prevent cutting a word in half."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:167
+msgid "Disable Variation Image Swap:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:167
+msgid ""
+"Check box to disable image swap for this product only.  This is to override "
+"the global image swap settings in your theme options."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:183
+msgid "Use the page layout settings to override the global settings"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:185
+msgid "Use Default"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:186
+msgid "Sidebar Left"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:187
+msgid "Sidebar Right"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:188
+msgid "Both Sidebars"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:189
+msgid "No Sidebars"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:191
+msgid "Disable Sitewide Sidebar Widgets for this Page: "
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:208
+msgid "Use the post layout settings to override the global settings"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:216
+msgid "Disable Sitewide Sidebar Widgets for this Post: "
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:233
+msgid ""
+"Use the portfolio layout settings to override the global settings. For "
+"single view."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:241
+msgid "Disable Sitewide Sidebar Widgets for this Portfolio: "
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:275
+msgid "Set the portfolio image sizes for list view and single view."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:277
+msgid "Listing View Image Width (format: 300)"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:280
+msgid "Listing View Image Height (format: 300)"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:283
+msgid "Single View Image Width (format: 300)"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:286
+msgid "Single View Image Height (format: 300)"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:298
+msgid "Use below settings to customize this portfolio page."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:299
+msgid "Select the Portfolio Category"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:313
+#: ../sp-framework/functions/custom-meta-boxes.php:324
+msgid "Please Select"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:322
+msgid "Select the number of columns to display"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:325
+msgid "1 Column"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:326
+msgid "2 Columns"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:327
+msgid "3 Columns"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:328
+msgid "4 Columns"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:330
+msgid "Enter the number of entries per page to display"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:334
+msgid "Turn on sortable feature. "
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:334
+msgid "This will take your entry tags and list them as sortable items."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:337
+msgid "Turn on show title."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:337
+msgid "This will display the title of your portfolio entry."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:340
+msgid "Turn on show excerpt."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:340
+msgid "This will display a text excerpt of your portfolio entry if set."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:343
+msgid "Turn on gallery only."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:343
+msgid ""
+"This will display your portfolio in a gallery only fashion where detailed "
+"portfolio entry is disabled.  Clicking on the images in the gallery will "
+"open a lightbox instead of going to the detailed entry view."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:354
+msgid "Type your alternate text here"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:30
+msgid "Add New Portfolio Entry"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:31
+msgid "Edit Portfolio Entry"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:32
+msgid "New Portfolio Entry"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:33
+msgid "View Portfolio Entry"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:34
+msgid "Search Portfolio Entries"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:35
+msgid "No Portfolio Entries found"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:36
+msgid "No Portfolio Entries found in Trash"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:23
+msgid "Join Us on Facebook"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:27
+msgid "Follow our Tweets"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:31
+msgid "Follow our Pins"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:35
+msgid "Checkout our Flickr Photos"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:39
+msgid "Checkout our Google Plus Profile"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:43
+msgid "Checkout our YouTube Videos"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:47
+msgid "Get Fed on our Feeds"
+msgstr ""
+
+#: ../sp-framework/functions/theme-scripts.php:89
+msgid "Reset e-mail sent!"
+msgstr ""
+
+#: ../sp-framework/functions/theme-scripts.php:90
+msgid "Go to..."
+msgstr ""
+
+#: ../sp-framework/functions/utils.php:61
+#, php-format
+msgid "There is a new version of your theme available (%s). Please visit"
+msgstr ""
+
+#: ../sp-framework/functions/utils.php:61
+msgid "To disable this message permanently"
+msgstr ""
+
+#: ../sp-framework/functions/utils.php:61
+#: ../sp-framework/functions/utils.php:70
+msgid "click here"
+msgstr ""
+
+#: ../sp-framework/functions/utils.php:70
+#, php-format
+msgid "There is a new version of SP Framework available (%s). Please visit"
+msgstr ""
+
+#: ../sp-framework/functions/utils.php:70
+#, fuzzy
+msgid "to download."
+msgstr "Ihr  Downloads"
+
+#: ../sp-framework/functions/utils.php:70
+msgid "(ChangeLog)"
+msgstr ""
+
+#: ../sp-framework/functions/utils.php:70
+msgid "(To disable this message permanently"
+msgstr ""
+
+#: ../sp-framework/functions/woo-functions.php:371
+#: ../sp-framework/functions/woo-functions.php:457
+#: ../woocommerce/checkout/review-order.php:93
+#, fuzzy
+msgid "Subtotal"
+msgstr "Gesamt:"
+
+#: ../sp-framework/functions/woo-functions.php:375
+#: ../sp-framework/functions/woo-functions.php:461
+msgid "View Cart &rarr;"
+msgstr ""
+
+#: ../sp-framework/functions/woo-functions.php:410
+msgid "Display the user's Cart in the sidebar."
+msgstr ""
+
+#: ../sp-framework/functions/woo-functions.php:412
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: ../sp-framework/functions/woo-functions.php:513
+#: ../woocommerce/single-product-reviews.php:29
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../sp-framework/functions/woo-functions.php:513
+#: ../woocommerce/single-product-reviews.php:29
+#: ../woocommerce/single-product/review.php:18
+msgid "out of 5"
+msgstr ""
+
+#: ../sp-framework/functions/wpec-functions.php:84
+#, fuzzy
+msgid "More Info &gt;"
+msgstr "Mehr Informationen"
+
+#: ../sp-framework/functions/wpec-functions.php:173
+#, fuzzy
+msgid "Sorry, you already rated!"
+msgstr "Sorry, sausverkauft!"
+
+#: ../sp-framework/functions/wpec-functions.php:195
+msgid "Thanks for rating!"
+msgstr ""
+
+#: ../sp-framework/functions/wpec-functions.php:502
+#, php-format
+msgid " from %s"
+msgstr ""
+
+#: ../sp-framework/functions/wpec-functions.php:573
+msgid "Grid View"
+msgstr ""
+
+#: ../sp-framework/functions/wpec-functions.php:573
+msgid "Grid"
+msgstr ""
+
+#: ../sp-framework/functions/wpec-functions.php:574
+msgid "Default View"
+msgstr ""
+
+#: ../sp-framework/functions/wpec-functions.php:574
+msgid "Default"
+msgstr ""
+
+#: ../woocommerce/archive-product.php:27
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../woocommerce/archive-product.php:29
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: ../woocommerce/archive-product.php:52
+msgid "Quick Category Change"
+msgstr ""
+
+#: ../woocommerce/archive-product.php:69 ../woocommerce/loop-shop.php:36
+msgid "No products found which match your selection."
+msgstr ""
+
+#: ../woocommerce/content-product.php:40
+msgid "Sale"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:31
+#, php-format
+msgid "%s review for %s"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:53
+#: ../woocommerce/loop/pagination.php:13
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:54
+#: ../woocommerce/loop/pagination.php:12
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:58
+#, fuzzy
+msgid "Add Review"
+msgstr "Produkte Beurteilung"
+
+#: ../woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:64
+msgid "Be the first to review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:66
+msgid ""
+"There are no reviews yet, would you like to <a href=\"#review_form\" class="
+"\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:84
+#, fuzzy
+msgid "Submit Review"
+msgstr "Produkte Beurteilung"
+
+#: ../woocommerce/single-product-reviews.php:91
+msgid "Rating"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:92
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:93
+msgid "Perfect"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:94
+msgid "Good"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:95
+msgid "Average"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:96
+msgid "Not that bad"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:97
+msgid "Very Poor"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:102
+#, fuzzy
+msgid "Your Review"
+msgstr "Produkte Beurteilung"
+
+#: ../woocommerce/cart/cart.php:63
+msgid "Remove this item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:88
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:138
+msgid "Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:138 ../woocommerce/checkout/form-coupon.php:19
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:145
+#, fuzzy
+msgid "Update Cart"
+msgstr "aktualisieren"
+
+#: ../woocommerce/cart/cart.php:163
+msgid "Proceed to Checkout &rarr;"
+msgstr ""
+
+#: ../woocommerce/cart/cross-sells.php:29
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/empty.php:7
+#, fuzzy
+msgid "Your cart is currently empty."
+msgstr "Dein Warenkorb ist leer"
+
+#: ../woocommerce/cart/empty.php:11
+msgid "&larr; Return To Shop"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:14
+#, fuzzy
+msgid "Calculate Shipping"
+msgstr "Berechnet den Versand Preis"
+
+#: ../woocommerce/cart/shipping-calculator.php:18
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:38
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:50
+#, fuzzy
+msgid "State"
+msgstr "Status"
+
+#: ../woocommerce/cart/shipping-calculator.php:57
+msgid "Postcode/Zip"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:57
+msgid "Postcode"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:60
+#, fuzzy
+msgid "Update Totals"
+msgstr "aktualisieren"
+
+#: ../woocommerce/checkout/cart-errors.php:9
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: ../woocommerce/checkout/cart-errors.php:13
+msgid "&larr; Return To Cart"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:10
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:14
+#: ../woocommerce/myaccount/form-edit-address.php:21
+#: ../woocommerce/myaccount/my-address.php:20
+#, fuzzy
+msgid "Billing Address"
+msgstr "Gleich wie Rechnungsadresse:"
+
+#: ../woocommerce/checkout/form-billing.php:33
+#, fuzzy
+msgid "Create an account?"
+msgstr "Konto eröffnen"
+
+#: ../woocommerce/checkout/form-billing.php:42
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login with your username at the top of the page."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:34
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:58
+#, fuzzy
+msgid "Your order"
+msgstr "Ihr Logo hier"
+
+#: ../woocommerce/checkout/form-coupon.php:7
+msgid "Have a coupon?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-coupon.php:10
+msgid "Click here to enter your code"
+msgstr ""
+
+#: ../woocommerce/checkout/form-coupon.php:15
+#, fuzzy
+msgid "Coupon code"
+msgstr "Gutschein Code eingeben"
+
+#: ../woocommerce/checkout/form-login.php:8
+msgid "Already registered?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:11
+msgid "Click here to login"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:13
+msgid ""
+"If you have shopped with us before, please enter your username and password "
+"in the boxes below. If you are a new customer please proceed to the Billing "
+"&amp; Shipping section."
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:14
+#, fuzzy
+msgid "Totals"
+msgstr "Gesamt"
+
+#: ../woocommerce/checkout/form-pay.php:70
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:79
+msgid "Pay for order"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:25
+#, fuzzy
+msgid "Ship to billing address?"
+msgstr "Gleich wie Rechnungsadresse:"
+
+#: ../woocommerce/checkout/form-shipping.php:28
+#: ../woocommerce/myaccount/form-edit-address.php:21
+#: ../woocommerce/myaccount/my-address.php:51
+#, fuzzy
+msgid "Shipping Address"
+msgstr "Versand"
+
+#: ../woocommerce/checkout/review-order.php:27
+#, fuzzy
+msgid "Cart Subtotal"
+msgstr "Gesamt:"
+
+#: ../woocommerce/checkout/review-order.php:34
+#, fuzzy
+msgid "Cart Discount"
+msgstr "Rabatt:"
+
+#: ../woocommerce/checkout/review-order.php:113
+msgid "Tax"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:124
+#, fuzzy
+msgid "Order Discount"
+msgstr "Rabatt:"
+
+#: ../woocommerce/checkout/review-order.php:133
+#, fuzzy
+msgid "Order Total"
+msgstr "Ingesamt:"
+
+#: ../woocommerce/checkout/review-order.php:151
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:237
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:239
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:248
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:248
+#, fuzzy
+msgid "Update totals"
+msgstr "aktualisieren"
+
+#: ../woocommerce/checkout/review-order.php:254
+msgid "Place order"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:258
+msgid "I have read and accept the"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:258
+#, fuzzy
+msgid "terms &amp; conditions"
+msgstr "AGB"
+
+#: ../woocommerce/checkout/thankyou.php:13
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:17
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:19
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:24
+#: ../woocommerce/myaccount/my-orders.php:58
+msgid "Pay"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:56
+#: ../woocommerce/checkout/thankyou.php:93
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:60
+msgid "Order:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:64
+#, fuzzy
+msgid "Date:"
+msgstr "Datum"
+
+#: ../woocommerce/checkout/thankyou.php:73
+#, fuzzy
+msgid "Payment method:"
+msgstr "Zahlungs-Methode"
+
+#: ../woocommerce/loop/add-to-cart.php:13
+#: ../woocommerce/loop/add-to-cart.php:30
+#, fuzzy
+msgid "Details"
+msgstr "Mehr Details"
+
+#: ../woocommerce/loop/add-to-cart.php:22
+#, fuzzy
+msgid "Select options"
+msgstr "Spende"
+
+#: ../woocommerce/loop/add-to-cart.php:26
+#, fuzzy
+msgid "View options"
+msgstr "Spende"
+
+#: ../woocommerce/loop/add-to-cart.php:34
+#: ../woocommerce/single-product/add-to-cart/grouped.php:43
+#: ../woocommerce/single-product/add-to-cart/variable.php:68
+#: ../woocommerce/single-product/add-to-cart/variable.php:153
+#, fuzzy
+msgid "Add to cart"
+msgstr "In den Warenkorb"
+
+#: ../woocommerce/loop/sale-flash.php:10
+#: ../woocommerce/single-product/sale-flash.php:10
+msgid "Sale!"
+msgstr ""
+
+#: ../woocommerce/loop/sorting.php:10
+msgid "Default sorting"
+msgstr ""
+
+#: ../woocommerce/loop/sorting.php:11
+msgid "Sort alphabetically"
+msgstr ""
+
+#: ../woocommerce/loop/sorting.php:12
+msgid "Sort by most recent"
+msgstr ""
+
+#: ../woocommerce/loop/sorting.php:13
+msgid "Sort by price"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-change-password.php:14
+#, fuzzy
+msgid "New password"
+msgstr "Passwort"
+
+#: ../woocommerce/myaccount/form-change-password.php:18
+msgid "Re-enter new password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-change-password.php:23
+msgid "Save"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:36
+msgid "Save Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:15
+#: ../woocommerce/myaccount/form-login.php:29
+#: ../woocommerce/shop/form-login.php:25
+msgid "Login"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:18
+#: ../woocommerce/myaccount/form-login.php:43
+#: ../woocommerce/shop/form-login.php:14
+msgid "Username"
+msgstr "Benutzername"
+
+#: ../woocommerce/myaccount/form-login.php:22
+#: ../woocommerce/myaccount/form-login.php:53
+#: ../woocommerce/shop/form-login.php:18
+msgid "Password"
+msgstr "Passwort"
+
+#: ../woocommerce/myaccount/form-login.php:30
+#: ../woocommerce/shop/form-login.php:27
+#, fuzzy
+msgid "Lost Password?"
+msgstr "Passwort"
+
+#: ../woocommerce/myaccount/form-login.php:39
+#: ../woocommerce/myaccount/form-login.php:69
+msgid "Register"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:57
+msgid "Re-enter password"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:11
+#, php-format
+msgid ""
+"Hello, <strong>%s</strong>. From your account dashboard you can view your "
+"recent orders, manage your shipping and billing addresses and <a href=\"%s"
+"\">change your password</a>."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:16
+msgid "Available downloads"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:19
+msgid "&nbsp;download remaining"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:24
+msgid "Recent Orders"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:27
+msgid "My Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:28
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:39
+#, fuzzy
+msgid "You have not set up a billing address yet."
+msgstr "Gleich wie Rechnungsadresse:"
+
+#: ../woocommerce/myaccount/my-address.php:70
+msgid "You have not set up a shipping address yet."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:28
+msgid "Order"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:29
+msgid "Ship to"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:31
+msgid "Status"
+msgstr "Status"
+
+#: ../woocommerce/myaccount/my-orders.php:52
+msgid "Click to cancel this order"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:52
+msgid "Cancel"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:61
+msgid "View"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:73
+msgid "You have no recent orders."
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:63
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:86
+#: ../woocommerce/shop/breadcrumb.php:170
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:134
+msgid "Error 404"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:174
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:179
+msgid "Author:"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:185
+msgid "Page"
+msgstr ""
+
+#: ../woocommerce/single-product/meta.php:38
+msgid "SKU:"
+msgstr ""
+
+#: ../woocommerce/single-product/meta.php:41
+msgid "Category:"
+msgstr ""
+
+#: ../woocommerce/single-product/meta.php:43
+msgid "Tags:"
+msgstr ""
+
+#: ../woocommerce/single-product/product-attributes.php:22
+msgid "Weight"
+msgstr ""
+
+#: ../woocommerce/single-product/product-attributes.php:31
+msgid "Dimensions"
+msgstr ""
+
+#: ../woocommerce/single-product/related.php:31
+#, fuzzy
+msgid "Related Products"
+msgstr "Produkt"
+
+#: ../woocommerce/single-product/review.php:22
+#, fuzzy
+msgid "Your comment is awaiting approval"
+msgstr "Ihr Kommentar wartet auf die Moderation, um freigeschaltet zu werden."
+
+#: ../woocommerce/single-product/review.php:29
+msgid "verified owner"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:31
+msgid "M jS Y"
+msgstr ""
+
+#: ../woocommerce/single-product/up-sells.php:29
+msgid "You May Also Like:"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/simple.php:34
+#, fuzzy
+msgid "add to cart"
+msgstr "In den Warenkorb"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:26
+#: ../woocommerce/single-product/add-to-cart/variable.php:93
+msgid "Choose an option"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:58
+#: ../woocommerce/single-product/add-to-cart/variable.php:143
+#, fuzzy
+msgid "Clear selection"
+msgstr "Warenkorb leeren"
+
+#: ../woocommerce/single-product/tabs/description.php:14
+#, fuzzy
+msgid "Product Description"
+msgstr "Produkt am Lager"
+
+#~ msgid "Purchase History"
+#~ msgstr "Kauf-Historie"
+
+#~ msgid "Your Details"
+#~ msgstr "Deine Angaben"
+
+#~ msgid "Your Downloads"
+#~ msgstr "Ihr  Downloads"
+
+#~ msgid "Please login to see your account information."
+#~ msgstr "Bitte einloggen, um Ihre Kontoinformationen zu sehen."
+
+#~ msgid "Save Profile"
+#~ msgstr "Profil speichern"
+
+#~ msgid "File Names"
+#~ msgstr "Datei Name"
+
+#~ msgid "Downloads Left"
+#~ msgstr "Downloads links"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "You have not purchased any downloadable products yet."
+#~ msgstr "Sie haben noch keine Download-Produkte gekauft."
+
+#~ msgid "Payment Method"
+#~ msgstr "Zahlungs-Methode"
+
+#~ msgid "No transactions for this month."
+#~ msgstr "Keine Transaktionen für diesen Monat."
+
+#~ msgid "There have not been any purchases yet."
+#~ msgstr "Es wurden noch nichts gekauft."
+
+#, fuzzy
+#~ msgid "Cart Totals"
+#~ msgstr "Ingesamt:"
+
+#, fuzzy
+#~ msgid "[Remove]"
+#~ msgstr "entfernen"
+
+#, fuzzy
+#~ msgid "Customer details"
+#~ msgstr "Mehr Details"
+
+#, fuzzy
+#~ msgid "Email:"
+#~ msgstr "E-Mail"
+
+#, fuzzy
+#~ msgid "Hello, a note has just been added to your order:"
+#~ msgstr "Artikel wurde Ihrem Warenkorb hinzugefügt!"
+
+#, fuzzy
+#~ msgid "Billing address"
+#~ msgstr "Gleich wie Rechnungsadresse:"
+
+#, fuzzy
+#~ msgid "Shipping address"
+#~ msgstr "Versand"
+
+#, fuzzy
+#~ msgid "Download:"
+#~ msgstr "Ihr  Downloads"
+
+#, fuzzy
+#~ msgid "Order ID"
+#~ msgstr "Mehr Details"
+
+#, fuzzy
+#~ msgid "Billing Email"
+#~ msgstr "Gleich wie Rechnungsadresse:"
+
+#, fuzzy
+#~ msgid "Order Details"
+#~ msgstr "Mehr Details"
+
+#, fuzzy
+#~ msgid "Order Again"
+#~ msgstr "Mehr Details"
+
+#, fuzzy
+#~ msgid "Order Updates"
+#~ msgstr "aktualisieren"
+
+#~ msgid "Coupon Applied."
+#~ msgstr "Gutschein angewendet"
+
+#~ msgid "Calculate"
+#~ msgstr "Berechnen"
+
+#~ msgid "Create an Account"
+#~ msgstr "Konto eröffnen"
+
+#~ msgid "I agree to The "
+#~ msgstr "Zustimmung der"
+
+#~ msgid "Terms and Conditions"
+#~ msgstr "AGB"
+
+#~ msgid ""
+#~ "Please set the 3 featured products in your \"Homepage Product Slider\" "
+#~ "settings in Appearance->SP Mio Theme Options."
+#~ msgstr ""
+#~ "Bitte stellen Sie die drei vorgestellten Produkte in Ihrem \"Homepage "
+#~ "Slider Produkt \" Einstellungen in Erscheinung-> SP Mio Theme-Optionen."
+
+#~ msgid "GST"
+#~ msgstr "GST"

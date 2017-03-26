@@ -1,0 +1,2552 @@
+# Translation of Mio Theme in Russian
+# This file is distributed under the same license as the WP e-Commerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Splashing Pixels Mio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-05 08:48-0800\n"
+"PO-Revision-Date: 2013-09-05 08:48-0800\n"
+"Last-Translator: Splashing Pixels <info@splashingpixels.com>\n"
+"Language-Team: Splashing Pixels <info@splashingpixels.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: ../404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Извините, по вашему запросу ничего не найдено. Попробуйте воспользоваться "
+"поиском."
+
+#: ../archive.php:26
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:28
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:30
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:32
+msgid "Blog Archives"
+msgstr "Архив"
+
+#: ../archive.php:64 ../author.php:62 ../category.php:58 ../index.php:26
+#: ../search.php:59 ../tag.php:52
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: ../archive.php:68 ../author.php:66 ../category.php:62 ../index.php:30
+#: ../tag.php:56
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Извините, по вашему запросу ничего не найдено. Возможно поиск поможет найти "
+"похожие статьи."
+
+#: ../author.php:17
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Архив автора: %s"
+
+#: ../author.php:28
+#, php-format
+msgid "About %s"
+msgstr "Про %s"
+
+#: ../category.php:18
+#, fuzzy, php-format
+msgid "Category: %s"
+msgstr "Архив категории: %s"
+
+#: ../category.php:54 ../comments-product.php:40 ../comments.php:52
+#: ../content-single.php:72 ../sp-framework/functions/shortcodes-tags.php:208
+msgid "Back to Top"
+msgstr ""
+
+#: ../comments-product.php:3 ../comments.php:3
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Эта статья защищена паролем. Введите пароль для просмотра комментариев."
+
+#: ../comments-product.php:15 ../wpsc-single_product.php:257
+#, fuzzy
+msgid "Product Review"
+msgstr "Название Товара"
+
+#: ../comments-product.php:18 ../comments-product.php:31
+#, fuzzy
+msgid "&larr; Older Reviews"
+msgstr "&lt; Старые статьи"
+
+#: ../comments-product.php:19 ../comments-product.php:32
+msgid "Newer Reviews &rarr;"
+msgstr ""
+
+#: ../comments-product.php:58
+#, fuzzy
+msgid "Leave a Review"
+msgstr "Оставить комментарий"
+
+#: ../comments-product.php:58
+#, fuzzy
+msgid "Post Review"
+msgstr "Название Товара"
+
+#: ../comments.php:16
+#, php-format
+msgid "One Response to %2$s"
+msgstr "Один комментарий %2$s"
+
+#: ../comments.php:22 ../comments.php:35
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Старые комментарии"
+
+#: ../comments.php:23 ../comments.php:36
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новые комментарии <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../comments.php:45
+msgid "Comments are closed."
+msgstr "Комментирование закрыто."
+
+#: ../comments.php:59 ../woocommerce/single-product-reviews.php:79
+msgid "Name"
+msgstr "Имя"
+
+#: ../comments.php:61 ../woocommerce/single-product-reviews.php:81
+#: ../woocommerce/myaccount/form-login.php:47
+msgid "Email"
+msgstr "E-mail"
+
+#: ../comments.php:63
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: ../content-home.php:6 ../content-page.php:22 ../content-single.php:39
+#: ../content.php:73 ../wpsc-products_page.php:244
+#: ../woocommerce/myaccount/my-address.php:21
+#: ../woocommerce/myaccount/my-address.php:52
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ../content-page.php:20 ../content-single.php:33 ../content.php:52
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: ../content-portfolio.php:18 ../content.php:51
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать дальше <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../content-portfolio.php:72
+msgid "All"
+msgstr ""
+
+#: ../content-portfolio.php:110 ../content-portfolio.php:128
+#, fuzzy
+msgid "Read More"
+msgstr "Читать дальше &gt;"
+
+#: ../content-single.php:26
+msgid "by"
+msgstr ""
+
+#: ../content-single.php:37 ../content.php:72
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: ../content-single.php:37 ../content.php:72
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: ../content-single.php:37 ../content.php:72
+msgid "% Comments"
+msgstr "% Комментарии"
+
+#: ../content-single.php:55
+#, fuzzy, php-format
+msgid "View all posts by %s"
+msgstr "Смотреть все статьи %s &gt;"
+
+#: ../content.php:59
+#, php-format
+msgid ""
+"<span class=\"article-icon\">&nbsp;</span><span class=\"%1$s\">Posted in</"
+"span> %2$s"
+msgstr ""
+"<span class=\"article-icon\">&nbsp;</span><span class=\"%1$s\">Опубликовано "
+"в разделе</span> %2$s"
+
+#: ../content.php:68
+#, php-format
+msgid ""
+"<span class=\"tag-icon\">&nbsp;</span><span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+"<span class=\"tag-icon\">&nbsp;</span><span class=\"%1$s\">Метки</span> %2$s"
+
+#: ../footer.php:9
+msgid "Latest Blog Post:"
+msgstr "Последние статьи:"
+
+#: ../footer.php:35 ../footer.php:66 ../wpsc-featured_product.php:36
+#: ../wpsc-grid_view.php:115 ../wpsc-search.php:44
+msgid "More Details"
+msgstr "Подробнее"
+
+#: ../header.php:30
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: ../header.php:93 ../sp-also-bought.php:29 ../sp-posts-comments.php:69
+#: ../sp-posts-comments.php:115
+#: ../sp-framework/functions/control-panel-modules.php:17
+#: ../sp-framework/functions/control-panel-modules.php:40
+#: ../sp-framework/functions/control-panel-modules.php:175
+#: ../sp-framework/functions/control-panel-modules.php:204
+#: ../sp-framework/functions/control-panel-modules.php:229
+#: ../sp-framework/functions/control-panel-modules.php:246
+#: ../sp-framework/functions/control-panel-modules.php:285
+#: ../sp-framework/functions/control-panel-modules.php:302
+#: ../sp-framework/functions/control-panel-modules.php:347
+#: ../sp-framework/functions/control-panel-modules.php:366
+#: ../sp-framework/functions/control-panel-modules.php:409
+#: ../sp-framework/functions/control-panel-modules.php:428
+#: ../sp-framework/functions/control-panel-modules.php:686
+#: ../sp-framework/functions/control-panel-modules.php:739
+#: ../sp-framework/functions/control-panel-modules.php:766
+#: ../sp-framework/functions/control-panel-modules.php:791
+#: ../sp-framework/functions/control-panel-modules.php:818
+#: ../sp-framework/functions/control-panel-modules.php:892
+#: ../sp-framework/functions/control-panel-modules.php:910
+#: ../sp-framework/functions/control-panel-modules.php:915
+#: ../sp-framework/functions/control-panel-modules.php:935
+#: ../sp-framework/functions/control-panel-modules.php:952
+#: ../sp-framework/functions/control-panel-modules.php:969
+#: ../sp-framework/functions/control-panel-modules.php:986
+#: ../sp-framework/functions/database.php:231
+#: ../sp-framework/functions/database.php:237
+#: ../sp-framework/functions/theme-setup.php:73
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../header.php:112
+msgid "Your Logo Here"
+msgstr "Ваш логотип"
+
+#: ../header.php:127
+msgid "Logout"
+msgstr "Выйти"
+
+#: ../header.php:127
+msgid "(Logout)"
+msgstr "(Выйти)"
+
+#: ../header.php:136 ../header.php:164 ../wpsc-cart_widget.php:53
+msgid "Checkout"
+msgstr "Оплатить"
+
+#: ../header.php:141 ../header.php:153
+#, fuzzy
+msgid "item"
+msgstr "%d товар"
+
+#: ../header.php:143 ../header.php:155
+#, fuzzy
+msgid "items"
+msgstr "%d товар"
+
+#: ../header.php:164 ../sp-framework/functions/woo-functions.php:340
+#: ../sp-framework/functions/woo-functions.php:426
+#, fuzzy
+msgid "Cart"
+msgstr "Корзина"
+
+#: ../header.php:173 ../woocommerce/checkout/thankyou.php:26
+msgid "My Account"
+msgstr "Учетная запись"
+
+#: ../header.php:173
+#, fuzzy
+msgid "Account"
+msgstr "Учетная запись"
+
+#: ../page.php:15 ../search.php:63
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, у нас нет ничего похожего на ваш поисковый запрос. Попробуйте "
+"поискать по другим ключевым словам."
+
+#: ../search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: ../searchform.php:6
+#, fuzzy
+msgid "Search All"
+msgstr "Sidebar"
+
+#: ../searchform.php:10 ../searchform.php:19
+#, fuzzy
+msgid "Search Posts"
+msgstr "Sidebar"
+
+#: ../searchform.php:13 ../searchform.php:22
+#, fuzzy
+msgid "Search Products"
+msgstr "Демонстрационный товар"
+
+#: ../sidebar-left.php:14 ../sidebar-right.php:14
+msgid "Meta"
+msgstr ""
+
+#: ../sp-posts-comments.php:27
+msgid "Read More &gt;"
+msgstr "Читать дальше &gt;"
+
+#: ../sp-posts-comments.php:72 ../sp-posts-comments.php:119
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: ../sp-posts-comments.php:79
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../sp-posts-comments.php:79 ../sp-posts-comments.php:97
+#: ../sp-posts-comments.php:126
+msgid "(Edit)"
+msgstr "(Редактировать)"
+
+#: ../sp-posts-comments.php:97
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../sp-posts-comments.php:126
+#, php-format
+msgid "%1$s | %2$s"
+msgstr ""
+
+#: ../sp-posts-comments.php:148
+#, php-format
+msgid ""
+"<span class=\"calendar-icon\">&nbsp;</span>%1$s <span class=\"meta-sep\">by</"
+"span> %2$s"
+msgstr ""
+"<span class=\"calendar-icon\">&nbsp;</span>%1$s <span class=\"meta-sep\"></"
+"span> %2$s"
+
+#: ../sp-posts-comments.php:169
+#, php-format
+msgid ""
+"<span class=\"article-icon\">&nbsp;</span>Posted in %1$s <span class=\"tag-"
+"icon\">&nbsp;</span>Tags %2$s. <span class=\"bookmark-icon\">&nbsp;</"
+"span>Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>"
+msgstr ""
+"<span class=\"article-icon\">&nbsp;</span>Опубликовано в %1$s <span class="
+"\"tag-icon\">&nbsp;</span>Метки %2$s. <span class=\"bookmark-icon\">&nbsp;</"
+"span><a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">Постоянная ссылка</a>"
+
+#: ../sp-posts-comments.php:171
+#, php-format
+msgid ""
+"<span class=\"article-icon\">&nbsp;</span>Posted in %1$s. <span class="
+"\"bookmark-icon\">&nbsp;</span>Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>"
+msgstr ""
+"<span class=\"article-icon\">&nbsp;</span>Опубликовано в %1$s. <span class="
+"\"bookmark-icon\">&nbsp;</span><a href=\"%3$s\" title=\"Permalink to %4$s\" "
+"rel=\"bookmark\">Постоянная ссылка</a>"
+
+#: ../sp-posts-comments.php:173
+#, php-format
+msgid ""
+"<span class=\"bookmark-icon\">&nbsp;</span>Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>"
+msgstr ""
+"<span class=\"bookmark-icon\">&nbsp;</span><a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">Постоянная ссылка</a>"
+
+#: ../sp-posts-comments.php:192
+#, fuzzy, php-format
+msgid ""
+"<p><span class=\"article-icon\">&nbsp;</span>%1$s</p><p><span class=\"tag-"
+"icon\">&nbsp;</span>%2$s.</p>"
+msgstr ""
+"<span class=\"calendar-icon\">&nbsp;</span>%1$s <span class=\"meta-sep\"></"
+"span> %2$s"
+
+#: ../sp-posts-comments.php:194
+#, fuzzy, php-format
+msgid "<p><span class=\"article-icon\">&nbsp;</span>%1$s.</p>"
+msgstr ""
+"<span class=\"article-icon\">&nbsp;</span><span class=\"%1$s\">Опубликовано "
+"в разделе</span> %2$s"
+
+#: ../sp-posts-comments.php:196
+#, fuzzy, php-format
+msgid ""
+"<p><span class=\"bookmark-icon\">&nbsp;</span>Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" data-rel=\"bookmark\">permalink</a></p>"
+msgstr ""
+"<span class=\"bookmark-icon\">&nbsp;</span><a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">Постоянная ссылка</a>"
+
+#: ../sp-posts-comments.php:234
+msgid "Related Posts"
+msgstr ""
+
+#: ../sp-posts-comments.php:261
+#, fuzzy
+msgid "<span class=\"arrow\">&lt;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Старые комментарии"
+
+#: ../sp-posts-comments.php:262
+#, fuzzy
+msgid "Newer posts <span class=\"arrow\">&gt;</span>"
+msgstr "Новые комментарии <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../sp-widgets.php:19 ../sp-widgets.php:21
+#, fuzzy, php-format
+msgid "Sidebar (%s) Sitewide"
+msgstr "Sidebar"
+
+#: ../sp-widgets.php:41 ../sp-widgets.php:43
+#, fuzzy, php-format
+msgid "Sidebar (%s) Page: "
+msgstr "Sidebar"
+
+#: ../sp-widgets.php:67 ../sp-widgets.php:69
+#, php-format
+msgid "Sidebar (%1$s) Blog Category: %2$s"
+msgstr ""
+
+#: ../sp-widgets.php:96 ../sp-widgets.php:98
+#, php-format
+msgid "Sidebar (%1$s) Product Cat: %2$s"
+msgstr ""
+
+#: ../sp-widgets.php:117
+#, fuzzy, php-format
+msgid "Footer Widget %d"
+msgstr "Footer Widget "
+
+#: ../sp-widgets.php:119
+#, fuzzy, php-format
+msgid "Footer Widget Area %d"
+msgstr "Footer Widget Area "
+
+#: ../sp-widgets.php:130
+#, fuzzy
+msgid "Site Top Widget (Promotions)"
+msgstr "Sidebar Widget Area"
+
+#: ../sp-widgets.php:132
+msgid ""
+"Site Top Widget Area for promotional items to be used in conjunction with SP "
+"Promotional Widget"
+msgstr ""
+
+#: ../sp-widgets.php:139
+#, fuzzy
+msgid "Site Bottom Widget (Promotions)"
+msgstr "Sidebar Widget Area"
+
+#: ../sp-widgets.php:141
+msgid ""
+"Site Bottom Widget Area for promotional items to be used in conjunction with "
+"SP Promotional Widget"
+msgstr ""
+
+#: ../sp-widgets.php:148
+#, fuzzy
+msgid "Page Top Widget (Promotions)"
+msgstr "Footer Widget Area "
+
+#: ../sp-widgets.php:150
+msgid ""
+"Page Top Widget Area for promotional items to be used in conjunction with SP "
+"Promotional Widget"
+msgstr ""
+
+#: ../sp-widgets.php:157
+#, fuzzy
+msgid "Page Bottom Widget (Promotions)"
+msgstr "Footer Widget Area "
+
+#: ../sp-widgets.php:159
+msgid ""
+"Page Bottom Widget Area for promotional items to be used in conjunction with "
+"SP Promotional Widget"
+msgstr ""
+
+#: ../sp_home.php:31 ../sp_home.php:102 ../wpsc-grid_view.php:134
+#: ../wpsc-list_view.php:148 ../wpsc-search.php:63
+msgid "More Info"
+msgstr "Подробнее"
+
+#: ../sp_home.php:39 ../sp_home.php:41 ../sp_home.php:48 ../sp_home.php:110
+#: ../sp_home.php:112 ../sp_home.php:119 ../wpsc-grid_view.php:139
+#: ../wpsc-list_view.php:145 ../wpsc-products_page.php:228
+#: ../wpsc-search.php:68 ../wpsc-single_product.php:180
+msgid "Buy Now"
+msgstr "Купить!"
+
+#: ../tag.php:17
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Архив метки: %s"
+
+#: ../wpsc-cart_widget.php:6 ../woocommerce/cart/cart.php:44
+#: ../woocommerce/checkout/form-pay.php:12
+#: ../woocommerce/checkout/review-order.php:21
+msgid "Product"
+msgstr "Товар"
+
+#: ../wpsc-cart_widget.php:7 ../woocommerce/checkout/form-pay.php:13
+msgid "Qty"
+msgstr "К-во"
+
+#: ../wpsc-cart_widget.php:8 ../woocommerce/cart/cart.php:45
+msgid "Price"
+msgstr "Цена"
+
+#: ../wpsc-cart_widget.php:38
+#, fuzzy, php-format
+msgid "%d item"
+msgstr "%d товар"
+
+#: ../wpsc-cart_widget.php:41 ../woocommerce/cart/cart.php:47
+#: ../woocommerce/checkout/review-order.php:22
+#: ../woocommerce/myaccount/my-orders.php:30
+msgid "Total"
+msgstr "Всего"
+
+#: ../wpsc-cart_widget.php:47
+msgid "Postage &amp; Tax "
+msgstr "Пересылка и Налоги"
+
+#: ../wpsc-cart_widget.php:56
+msgid "Clear cart"
+msgstr ""
+
+#: ../wpsc-cart_widget.php:73 ../sp-framework/functions/woo-functions.php:366
+#: ../sp-framework/functions/woo-functions.php:452
+msgid "Your shopping cart is empty"
+msgstr "Ваша корзина пуста"
+
+#: ../wpsc-cart_widget.php:74
+msgid "Visit the shop"
+msgstr "Посетите магазин"
+
+#: ../wpsc-grid_view.php:141 ../wpsc-list_view.php:150
+#: ../wpsc-products_page.php:230 ../wpsc-search.php:70
+#: ../wpsc-single_product.php:182
+#: ../woocommerce/single-product/add-to-cart/grouped.php:75
+msgid "Add To Cart"
+msgstr "В корзину"
+
+#: ../wpsc-grid_view.php:142 ../wpsc-list_view.php:151
+#: ../wpsc-products_page.php:231 ../wpsc-search.php:71
+#: ../wpsc-single_product.php:183
+msgid "Please select product options before adding to cart"
+msgstr "Пожалуйста, выберите параметры товара перед тем как добавить в корзину"
+
+#: ../wpsc-grid_view.php:143 ../wpsc-list_view.php:152
+#: ../wpsc-products_page.php:232 ../wpsc-search.php:72
+#: ../wpsc-single_product.php:184
+msgid "Item has been added to your cart!"
+msgstr "Товар успешно добавлен в вашу корзину!"
+
+#: ../wpsc-grid_view.php:154 ../wpsc-search.php:83
+msgid "Sorry, sold out!"
+msgstr "Извините, все продано"
+
+#: ../wpsc-grid_view.php:190 ../wpsc-list_view.php:175
+#: ../wpsc-products_page.php:291
+msgid "There are no products in this group."
+msgstr "В этой группе нет товаров."
+
+#: ../wpsc-list_view.php:105 ../wpsc-products_page.php:195
+#: ../wpsc-single_product.php:142
+msgid "Product not in stock"
+msgstr "Товар отсутствует на складе"
+
+#: ../wpsc-list_view.php:131 ../wpsc-single_product.php:132
+#: ../woocommerce/cart/cart.php:46
+msgid "Quantity"
+msgstr "Количество"
+
+#: ../wpsc-list_view.php:162 ../wpsc-single_product.php:194
+msgid "This product has sold out."
+msgstr "Товар продан."
+
+#: ../wpsc-products_page.php:162 ../wpsc-shopping_cart_page.php:70
+msgid "Quantity:"
+msgstr "Количество:"
+
+#: ../wpsc-products_page.php:176 ../wpsc-single_product.php:88
+msgid "Personalize Your Product"
+msgstr "Персонализируйте ваш Товар"
+
+#: ../wpsc-products_page.php:177 ../wpsc-single_product.php:89
+msgid "Complete this form to include a personalized message."
+msgstr "Заполните эту форму, чтобы добавить личное сообщение."
+
+#: ../wpsc-products_page.php:185 ../wpsc-single_product.php:97
+msgid "Upload a File"
+msgstr "Загрузить файл"
+
+#: ../wpsc-products_page.php:186 ../wpsc-single_product.php:98
+msgid "Select a file from your computer to include with this purchase."
+msgstr ""
+"Выберите файл на вашем компьютере, для того, чтобы добавить его к вашей "
+"покупке."
+
+#: ../wpsc-products_page.php:193
+#, fuzzy
+msgid "Product in stock"
+msgstr "Товар отсутствует на складе"
+
+#: ../wpsc-products_page.php:199 ../wpsc-single_product.php:145
+msgid "Donation"
+msgstr "Пожертвование"
+
+#: ../wpsc-products_page.php:210 ../woocommerce/checkout/review-order.php:45
+msgid "Shipping"
+msgstr "Доставка"
+
+#: ../wpsc-products_page.php:217
+msgid "You save"
+msgstr ""
+
+#: ../wpsc-shopping_cart_page.php:18
+msgid "Oops, there is nothing in your cart."
+msgstr "Упс, ваша карзина пуста."
+
+#: ../wpsc-shopping_cart_page.php:18
+msgid "Please visit our shop"
+msgstr "Посетите наш магазин"
+
+#: ../wpsc-shopping_cart_page.php:59 ../wpsc-shopping_cart_page.php:615
+#: ../wpsc-transaction_results.php:31 ../wpsc-transaction_results.php:46
+#: ../woocommerce/cart/cart.php:32
+#: ../woocommerce/checkout/form-checkout.php:22
+#: ../woocommerce/checkout/thankyou.php:49
+#: ../woocommerce/checkout/thankyou.php:88
+msgid "Your Cart"
+msgstr "Корзина"
+
+#: ../wpsc-shopping_cart_page.php:60 ../wpsc-shopping_cart_page.php:616
+#: ../wpsc-transaction_results.php:32 ../wpsc-transaction_results.php:47
+#: ../woocommerce/cart/cart.php:33
+#: ../woocommerce/checkout/form-checkout.php:23
+#: ../woocommerce/checkout/thankyou.php:50
+#: ../woocommerce/checkout/thankyou.php:89
+msgid "Info"
+msgstr "Информация о доставке"
+
+#: ../wpsc-shopping_cart_page.php:61 ../wpsc-shopping_cart_page.php:617
+#: ../wpsc-transaction_results.php:33 ../wpsc-transaction_results.php:48
+#: ../woocommerce/cart/cart.php:34
+#: ../woocommerce/checkout/form-checkout.php:24
+#: ../woocommerce/checkout/thankyou.php:51
+#: ../woocommerce/checkout/thankyou.php:90
+msgid "Final"
+msgstr "Готово"
+
+#: ../wpsc-shopping_cart_page.php:66 ../woocommerce/cart/cart.php:37
+#, fuzzy
+msgid "Sub-Total:"
+msgstr "Всего"
+
+#: ../wpsc-shopping_cart_page.php:69
+msgid "Product:"
+msgstr "Товар:"
+
+#: ../wpsc-shopping_cart_page.php:71
+msgid "Price:"
+msgstr "Цена:"
+
+#: ../wpsc-shopping_cart_page.php:72 ../woocommerce/checkout/thankyou.php:68
+msgid "Total:"
+msgstr "Итого:"
+
+#: ../wpsc-shopping_cart_page.php:118 ../wpsc-shopping_cart_page.php:150
+msgid "Update"
+msgstr "Обновить"
+
+#: ../wpsc-shopping_cart_page.php:130
+msgid "Remove"
+msgstr "Удалить"
+
+#: ../wpsc-shopping_cart_page.php:143
+msgid "Coupon is not valid."
+msgstr "Купон не действителен."
+
+#: ../wpsc-shopping_cart_page.php:148
+#, fuzzy
+msgid "Enter coupon code :"
+msgstr "Введите купон скидки"
+
+#: ../wpsc-shopping_cart_page.php:161
+msgid "Continue"
+msgstr "Продолжить"
+
+#: ../wpsc-shopping_cart_page.php:184
+msgid "Calculate Shipping Price"
+msgstr "Посчитать цену доставки"
+
+#: ../wpsc-shopping_cart_page.php:188
+#, fuzzy
+msgid "Please specify shipping location below to calculate your shipping costs"
+msgstr "Пожалуйста, выберите страну для рассчета стоимости доставки"
+
+#: ../wpsc-shopping_cart_page.php:196
+msgid "Please provide a Zipcode and click Calculate in order to continue."
+msgstr ""
+"Пожалуйста, укажите почтовый индекс и нажмите \"Посчитать\" для продолжения."
+
+#: ../wpsc-shopping_cart_page.php:202
+msgid ""
+"Sorry, online ordering is unavailable to this destination and/or weight. "
+"Please double check your destination details."
+msgstr ""
+"Извините, мы не осуществляем доставку для данной страны и/или указанного "
+"веса. Пожалуйста, перепроверте детали адреса доставки."
+
+#: ../wpsc-shopping_cart_page.php:220
+msgid " - Choose a Shipping Rate"
+msgstr "Выберите способ доставки"
+
+#: ../wpsc-shopping_cart_page.php:267
+msgid "You must sign in or register with us to continue with your purchase."
+msgstr ""
+"Вы должны авторизироваться или зарегистрироваться для продолжения оформления "
+"покупки."
+
+#: ../wpsc-shopping_cart_page.php:269
+msgid "If you have bought from us before please sign in for a speedy checkout."
+msgstr ""
+"Если вы уже покупали у нас раньше, пожалуйста авторизируйтесь - это ускорит "
+"оформление покупки."
+
+#: ../wpsc-shopping_cart_page.php:272
+msgid "Sign in"
+msgstr "Авторизироваться"
+
+#: ../wpsc-shopping_cart_page.php:290
+#, fuzzy
+msgid "Signing up is free and easy!"
+msgstr "Регистрация проста и бесплатна! Пожалуйста, заполните форму."
+
+#: ../wpsc-shopping_cart_page.php:291
+msgid "Join up now"
+msgstr ""
+
+#: ../wpsc-shopping_cart_page.php:293
+#: ../sp-framework/functions/custom-login.php:109
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: ../wpsc-shopping_cart_page.php:296
+#: ../sp-framework/functions/custom-login.php:113
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ../wpsc-shopping_cart_page.php:299
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../wpsc-shopping_cart_page.php:372
+msgid "Same as billing address:"
+msgstr "Такой же, как адрес оплаты:"
+
+#: ../wpsc-shopping_cart_page.php:374
+msgid "Your order will be shipped to the billing address"
+msgstr "Ваш заказ будет доставлен по адресу оплаты"
+
+#: ../wpsc-shopping_cart_page.php:418
+msgid "Enter your email address"
+msgstr "Укажите ваш e-mail адрес"
+
+#: ../wpsc-shopping_cart_page.php:454
+msgid "How did you find us"
+msgstr "Как вы узнали о нас?"
+
+#: ../wpsc-shopping_cart_page.php:457
+msgid "Word of mouth"
+msgstr "От знакомых"
+
+#: ../wpsc-shopping_cart_page.php:458
+msgid "Advertising"
+msgstr "Реклама"
+
+#: ../wpsc-shopping_cart_page.php:459
+msgid "Internet"
+msgstr "Интернет"
+
+#: ../wpsc-shopping_cart_page.php:460
+msgid "Existing Customer"
+msgstr "Посоветовал ваш покупатель"
+
+#: ../wpsc-shopping_cart_page.php:471
+msgid "Payment Type"
+msgstr "Способ оплаты"
+
+#: ../wpsc-shopping_cart_page.php:506
+#, php-format
+msgid ""
+"I agree to the <a class='thickbox terms_lightbox' target='_blank' "
+"href='%s'>Terms and Conditions</a>"
+msgstr ""
+
+#: ../wpsc-shopping_cart_page.php:516
+#: ../woocommerce/checkout/review-order.php:189
+msgid "SECURED CHECKOUT"
+msgstr ""
+
+#: ../wpsc-shopping_cart_page.php:535
+msgid "Review and purchase"
+msgstr "Просмотреть и оформить"
+
+#: ../wpsc-shopping_cart_page.php:543
+msgid "Total Shipping:"
+msgstr "Всего доставка:"
+
+#: ../wpsc-shopping_cart_page.php:552
+msgid "Item Cost:"
+msgstr "Цена за штуку:"
+
+#: ../wpsc-shopping_cart_page.php:575
+msgid "Discount:"
+msgstr "Скидка:"
+
+#: ../wpsc-shopping_cart_page.php:585
+msgid "Total Price"
+msgstr "Итоговая цена"
+
+#: ../wpsc-shopping_cart_page.php:593
+#, fuzzy
+msgid "Go Back"
+msgstr "&lt; Вернуться"
+
+#: ../wpsc-shopping_cart_page.php:601
+msgid "Purchase"
+msgstr "Покупка"
+
+#: ../wpsc-single_product.php:251 ../wpsc-single_product.php:266
+#: ../woocommerce/checkout/form-shipping.php:52
+#: ../woocommerce/single-product/tabs/additional-information.php:14
+msgid "Additional Information"
+msgstr ""
+
+#: ../wpsc-user-log.php:31
+msgid ""
+"You must be logged in to use this page. Please use the form below to login "
+"to your account."
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:28
+#: ../sp-framework/functions/class-widgets.php:37
+#, fuzzy
+msgid "SP Product Category"
+msgstr "Товар отсутствует на складе"
+
+#: ../sp-framework/functions/class-widgets.php:31
+msgid ""
+"Custom SP widget to display WPEC product categories in an accordion fashion"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:123
+msgid "Show Categories"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:125
+msgid "(leave all unchecked if you want to display all)"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:129
+#: ../sp-framework/functions/class-widgets.php:237
+#, fuzzy
+msgid "Title:"
+msgstr "Итого:"
+
+#: ../sp-framework/functions/class-widgets.php:134
+#, fuzzy
+msgid "Show Product Count in Category"
+msgstr "Товар отсутствует на складе"
+
+#: ../sp-framework/functions/class-widgets.php:150
+msgid "Custom SP widget to filter WPEC products in a price range slider."
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:211
+msgid "Filter"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:253
+msgid "Custom SP widget to display any promotional items."
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:312
+msgid "Select Time Zone:"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:316
+msgid "--Please Select--"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:328
+msgid "Select Start Time:"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:329
+msgid "Select the time you want to start displaying this widget"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:333
+msgid "Select End Time:"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:334
+msgid "Select the time you want to stop displaying this widget"
+msgstr ""
+
+#: ../sp-framework/functions/class-widgets.php:338
+#, fuzzy
+msgid "Content:"
+msgstr "Продолжить"
+
+#: ../sp-framework/functions/control-panel-modules.php:19
+#: ../sp-framework/functions/control-panel-modules.php:42
+#: ../sp-framework/functions/control-panel-modules.php:111
+#, fuzzy
+msgid "Upload"
+msgstr "Загрузить файл"
+
+#: ../sp-framework/functions/control-panel-modules.php:23
+#: ../sp-framework/functions/control-panel-modules.php:54
+#: ../sp-framework/functions/control-panel-modules.php:123
+msgid "Current Image:"
+msgstr "Текущая картинка:"
+
+#: ../sp-framework/functions/control-panel-modules.php:25
+#: ../sp-framework/functions/control-panel-modules.php:85
+#: ../sp-framework/functions/control-panel-modules.php:151
+msgid "Remove current image"
+msgstr "Удалить текущую картинку"
+
+#: ../sp-framework/functions/control-panel-modules.php:109
+#, fuzzy
+msgid "Slide Image"
+msgstr "Нет картинки"
+
+#: ../sp-framework/functions/control-panel-modules.php:110
+msgid "Upload the image you want to feature for this slide."
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:152
+msgid "Slide Title"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:153
+msgid "Enter the title you want for this slide."
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:154
+msgid "Slide Text"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:155
+msgid ""
+"Enter the description you want for this slide. (note: long text will be "
+"automatically trimmed to retain style dimensions)"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:156
+msgid "Slide Link"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:157
+msgid "Enter the link you want the slide to direct to."
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:158
+msgid "Slide Link Text"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:223
+msgid ""
+"You can add new custom widgets here per page.  This will allow you to have "
+"different widgets depending on the page you're on.  Once you have generated "
+"all the widgets, you will see new widget containers"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:223
+#: ../sp-framework/functions/control-panel-modules.php:279
+#: ../sp-framework/functions/control-panel-modules.php:341
+#: ../sp-framework/functions/control-panel-modules.php:403
+msgid "here"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:233
+#: ../sp-framework/functions/control-panel-modules.php:250
+msgid "Select a Page"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:241
+#: ../sp-framework/functions/control-panel-modules.php:314
+#: ../sp-framework/functions/control-panel-modules.php:359
+#: ../sp-framework/functions/control-panel-modules.php:376
+#: ../sp-framework/functions/control-panel-modules.php:421
+#: ../sp-framework/functions/control-panel-modules.php:438
+#, fuzzy
+msgid "Delete"
+msgstr "По умолчанию"
+
+#: ../sp-framework/functions/control-panel-modules.php:279
+msgid ""
+"You can add new custom widgets here per blog category.  This will allow you "
+"to have different widgets depending on the category you're on.  Once you "
+"have generated all the widgets, you will see new widget containers"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:289
+#: ../sp-framework/functions/control-panel-modules.php:306
+#: ../sp-framework/functions/control-panel-modules.php:351
+#: ../sp-framework/functions/control-panel-modules.php:369
+#: ../sp-framework/functions/control-panel-modules.php:413
+#: ../sp-framework/functions/control-panel-modules.php:431
+msgid "Select a Category"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:341
+#: ../sp-framework/functions/control-panel-modules.php:403
+msgid ""
+"You can add new custom widgets here per product category page.  This will "
+"allow you to have different widgets depending on the product category page "
+"you're on.  Once you have generated all the widgets, you will see new widget "
+"containers"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:661
+msgid "No Custom Background"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:661
+msgid "Upload Custom Background"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:854
+msgid "Edit Maintenance Page"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:867
+msgid "Here is a rough preview of what your styles look like."
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:870
+msgid "This is a heading"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:871
+msgid "This is a heading with link"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:872
+msgid "This is a heading with link on hover"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:874
+msgid "This is the link color"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:875
+msgid "This is the link color on hover"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:893
+msgid "Reset All Settings"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:916
+#, fuzzy
+msgid "Create Page"
+msgstr "Текущая картинка:"
+
+#: ../sp-framework/functions/control-panel-modules.php:936
+msgid "Export Settings"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:953
+msgid "Import Settings"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:970
+msgid "Clear Cache Folder"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel-modules.php:987
+msgid "Clear Star Ratings"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:83
+msgid "insert media"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:85
+msgid ""
+"This will overwrite all your settings.  Are you sure you want to import the "
+"theme settings from your last exported state?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:86
+msgid ""
+"If you disable this message, you will no longer receive update notices for "
+"any future updates available.  Are you sure?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:87
+msgid "Are you sure you want to reset to theme default settings?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:88
+msgid "Are you sure you want to empty the image cache folder?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:89
+msgid "Are you sure you want to clear ALL product star ratings?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:90
+msgid "Your image is uploaded, please click on \"Save All\""
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:100
+msgid ""
+"You have selected a Portfolio Template.  To enable portfolio page options, "
+"please save the entry once with publish or save draft."
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:100
+msgid "This function has been disabled as it is not necessary with SP themes"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:140
+msgid "GENERAL"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:140
+#: ../sp-framework/functions/control-panel.php:146
+#: ../sp-framework/functions/control-panel.php:152
+msgid "settings"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:141
+msgid "STYLING"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:141
+#, fuzzy
+msgid "options"
+msgstr "Пожертвование"
+
+#: ../sp-framework/functions/control-panel.php:154
+msgid "HELP?"
+msgstr ""
+
+#: ../sp-framework/functions/control-panel.php:478
+msgid "For more support, please go to our site support forums."
+msgstr ""
+
+#: ../sp-framework/functions/custom-login.php:43
+msgid "Please enter your username and password."
+msgstr "Пожалуйста, введите имя пользователя и пароль."
+
+#: ../sp-framework/functions/custom-login.php:79
+msgid "User does not exist!"
+msgstr "Такого пользователя нет!"
+
+#: ../sp-framework/functions/custom-login.php:119
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: ../sp-framework/functions/custom-login.php:129
+#: ../sp-framework/functions/custom-login.php:147
+msgid "Checking Credentials"
+msgstr "Проверка данных"
+
+#: ../sp-framework/functions/custom-login.php:136
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+"Пожалуйста введите ваше имя или e-mail адрес. Вы получите по e-mail ссылку "
+"для создания нового пароля."
+
+#: ../sp-framework/functions/custom-login.php:139
+msgid "Username or E-mail:"
+msgstr "Имя пользователя или E-mail:"
+
+#: ../sp-framework/functions/custom-meta-boxes.php:16
+#: ../sp-framework/functions/custom-meta-boxes.php:24
+msgid "SP WP Auto Formating"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:32
+msgid "SP Excerpt Truncate"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:40
+msgid "SP Variation Image Swap"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:48
+msgid "SP Page Layout"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:56
+msgid "SP Post Layout"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:64
+#, fuzzy
+msgid "SP Portfolio Layout"
+msgstr "Параметры Товара"
+
+#: ../sp-framework/functions/custom-meta-boxes.php:72
+#, fuzzy
+msgid "SP Portfolio Image Sizes"
+msgstr "Параметры Товара"
+
+#: ../sp-framework/functions/custom-meta-boxes.php:86
+#, fuzzy
+msgid "SP Portfolio Options"
+msgstr "Параметры Товара"
+
+#: ../sp-framework/functions/custom-meta-boxes.php:101
+msgid "Homepage Alternate Textarea"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:111
+msgid "Homepage Layout v2"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:132
+msgid "Disable WP Auto Content Formatting:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:132
+msgid ""
+"When disabled, it will prevent Wordpress from automatically injecting break "
+"and paragraph tags which can cause some layout issues.  Mostly used when you "
+"are using HTML mode and want fine control."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:148
+msgid "Disable Truncate Function:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:148
+msgid "Checkbox to disable the auto text truncate function for this post."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:150
+msgid ""
+"This allows you to set the number of characters you want to display in the "
+"blog post listings."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:151
+msgid "Characters to Show:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:151
+msgid ""
+"This is used so that in the blog listing view, your blog post content will "
+"not overflow and be too long. This serves as an excerpt."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:152
+msgid "The Denote Character to Use:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:152
+msgid ""
+"This character denotation is used to signify there are more text to be "
+"displayed."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:153
+msgid "Precision Truncate:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:153
+msgid ""
+"Turning this on means it will cut off the text exactly at the characters you "
+"set above.  If you leave it off, it will automatically estimate where the "
+"word should be cut off to prevent cutting a word in half."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:167
+msgid "Disable Variation Image Swap:"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:167
+msgid ""
+"Check box to disable image swap for this product only.  This is to override "
+"the global image swap settings in your theme options."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:183
+msgid "Use the page layout settings to override the global settings"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:185
+#, fuzzy
+msgid "Use Default"
+msgstr "По умолчанию"
+
+#: ../sp-framework/functions/custom-meta-boxes.php:186
+msgid "Sidebar Left"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:187
+msgid "Sidebar Right"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:188
+msgid "Both Sidebars"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:189
+msgid "No Sidebars"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:191
+msgid "Disable Sitewide Sidebar Widgets for this Page: "
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:208
+msgid "Use the post layout settings to override the global settings"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:216
+msgid "Disable Sitewide Sidebar Widgets for this Post: "
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:233
+msgid ""
+"Use the portfolio layout settings to override the global settings. For "
+"single view."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:241
+msgid "Disable Sitewide Sidebar Widgets for this Portfolio: "
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:275
+msgid "Set the portfolio image sizes for list view and single view."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:277
+msgid "Listing View Image Width (format: 300)"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:280
+msgid "Listing View Image Height (format: 300)"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:283
+msgid "Single View Image Width (format: 300)"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:286
+msgid "Single View Image Height (format: 300)"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:298
+msgid "Use below settings to customize this portfolio page."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:299
+msgid "Select the Portfolio Category"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:313
+#: ../sp-framework/functions/custom-meta-boxes.php:324
+msgid "Please Select"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:322
+msgid "Select the number of columns to display"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:325
+#, fuzzy
+msgid "1 Column"
+msgstr "1 Комментарий"
+
+#: ../sp-framework/functions/custom-meta-boxes.php:326
+#, fuzzy
+msgid "2 Columns"
+msgstr "% Комментарии"
+
+#: ../sp-framework/functions/custom-meta-boxes.php:327
+#, fuzzy
+msgid "3 Columns"
+msgstr "% Комментарии"
+
+#: ../sp-framework/functions/custom-meta-boxes.php:328
+#, fuzzy
+msgid "4 Columns"
+msgstr "% Комментарии"
+
+#: ../sp-framework/functions/custom-meta-boxes.php:330
+msgid "Enter the number of entries per page to display"
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:334
+msgid "Turn on sortable feature. "
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:334
+msgid "This will take your entry tags and list them as sortable items."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:337
+msgid "Turn on show title."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:337
+msgid "This will display the title of your portfolio entry."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:340
+msgid "Turn on show excerpt."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:340
+msgid "This will display a text excerpt of your portfolio entry if set."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:343
+msgid "Turn on gallery only."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:343
+msgid ""
+"This will display your portfolio in a gallery only fashion where detailed "
+"portfolio entry is disabled.  Clicking on the images in the gallery will "
+"open a lightbox instead of going to the detailed entry view."
+msgstr ""
+
+#: ../sp-framework/functions/custom-meta-boxes.php:354
+msgid "Type your alternate text here"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:30
+msgid "Add New Portfolio Entry"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:31
+msgid "Edit Portfolio Entry"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:32
+msgid "New Portfolio Entry"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:33
+msgid "View Portfolio Entry"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:34
+msgid "Search Portfolio Entries"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:35
+msgid "No Portfolio Entries found"
+msgstr ""
+
+#: ../sp-framework/functions/custom-post-types.php:36
+msgid "No Portfolio Entries found in Trash"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:23
+msgid "Join Us on Facebook"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:27
+msgid "Follow our Tweets"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:31
+msgid "Follow our Pins"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:35
+msgid "Checkout our Flickr Photos"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:39
+msgid "Checkout our Google Plus Profile"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:43
+msgid "Checkout our YouTube Videos"
+msgstr ""
+
+#: ../sp-framework/functions/social-media-icons.php:47
+msgid "Get Fed on our Feeds"
+msgstr ""
+
+#: ../sp-framework/functions/theme-scripts.php:89
+msgid "Reset e-mail sent!"
+msgstr ""
+
+#: ../sp-framework/functions/theme-scripts.php:90
+msgid "Go to..."
+msgstr ""
+
+#: ../sp-framework/functions/utils.php:61
+#, fuzzy, php-format
+msgid "There is a new version of your theme available (%s). Please visit"
+msgstr "Доступна новая версия темы ("
+
+#: ../sp-framework/functions/utils.php:61
+msgid "To disable this message permanently"
+msgstr ""
+
+#: ../sp-framework/functions/utils.php:61
+#: ../sp-framework/functions/utils.php:70
+msgid "click here"
+msgstr ""
+
+#: ../sp-framework/functions/utils.php:70
+#, fuzzy, php-format
+msgid "There is a new version of SP Framework available (%s). Please visit"
+msgstr "Доступна новая версия SP Framework ("
+
+#: ../sp-framework/functions/utils.php:70
+#, fuzzy
+msgid "to download."
+msgstr "Загрузить"
+
+#: ../sp-framework/functions/utils.php:70
+msgid "(ChangeLog)"
+msgstr ""
+
+#: ../sp-framework/functions/utils.php:70
+msgid "(To disable this message permanently"
+msgstr ""
+
+#: ../sp-framework/functions/woo-functions.php:371
+#: ../sp-framework/functions/woo-functions.php:457
+#: ../woocommerce/checkout/review-order.php:93
+#, fuzzy
+msgid "Subtotal"
+msgstr "Всего"
+
+#: ../sp-framework/functions/woo-functions.php:375
+#: ../sp-framework/functions/woo-functions.php:461
+msgid "View Cart &rarr;"
+msgstr ""
+
+#: ../sp-framework/functions/woo-functions.php:410
+msgid "Display the user's Cart in the sidebar."
+msgstr ""
+
+#: ../sp-framework/functions/woo-functions.php:412
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: ../sp-framework/functions/woo-functions.php:513
+#: ../woocommerce/single-product-reviews.php:29
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../sp-framework/functions/woo-functions.php:513
+#: ../woocommerce/single-product-reviews.php:29
+#: ../woocommerce/single-product/review.php:18
+msgid "out of 5"
+msgstr ""
+
+#: ../sp-framework/functions/wpec-functions.php:84
+#, fuzzy
+msgid "More Info &gt;"
+msgstr "Подробнее >"
+
+#: ../sp-framework/functions/wpec-functions.php:173
+#, fuzzy
+msgid "Sorry, you already rated!"
+msgstr "Извините, все продано"
+
+#: ../sp-framework/functions/wpec-functions.php:195
+msgid "Thanks for rating!"
+msgstr ""
+
+#: ../sp-framework/functions/wpec-functions.php:502
+#, php-format
+msgid " from %s"
+msgstr "из %s"
+
+#: ../sp-framework/functions/wpec-functions.php:573
+msgid "Grid View"
+msgstr "Просмотр в виде сетки"
+
+#: ../sp-framework/functions/wpec-functions.php:573
+msgid "Grid"
+msgstr "Сетка"
+
+#: ../sp-framework/functions/wpec-functions.php:574
+msgid "Default View"
+msgstr "Вид по умолчанию"
+
+#: ../sp-framework/functions/wpec-functions.php:574
+msgid "Default"
+msgstr "По умолчанию"
+
+#: ../woocommerce/archive-product.php:27
+#, fuzzy, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr "Результаты поиска: %s"
+
+#: ../woocommerce/archive-product.php:29
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: ../woocommerce/archive-product.php:52
+msgid "Quick Category Change"
+msgstr ""
+
+#: ../woocommerce/archive-product.php:69 ../woocommerce/loop-shop.php:36
+msgid "No products found which match your selection."
+msgstr ""
+
+#: ../woocommerce/content-product.php:40
+msgid "Sale"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:31
+#, php-format
+msgid "%s review for %s"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:53
+#: ../woocommerce/loop/pagination.php:13
+#, fuzzy
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Старые комментарии"
+
+#: ../woocommerce/single-product-reviews.php:54
+#: ../woocommerce/loop/pagination.php:12
+#, fuzzy
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новые комментарии <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../woocommerce/single-product-reviews.php:58
+#, fuzzy
+msgid "Add Review"
+msgstr "Название Товара"
+
+#: ../woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:64
+msgid "Be the first to review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:66
+msgid ""
+"There are no reviews yet, would you like to <a href=\"#review_form\" class="
+"\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:84
+#, fuzzy
+msgid "Submit Review"
+msgstr "Название Товара"
+
+#: ../woocommerce/single-product-reviews.php:91
+msgid "Rating"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:92
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:93
+msgid "Perfect"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:94
+msgid "Good"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:95
+msgid "Average"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:96
+msgid "Not that bad"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:97
+msgid "Very Poor"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:102
+#, fuzzy
+msgid "Your Review"
+msgstr "Название Товара"
+
+#: ../woocommerce/cart/cart.php:63
+#, fuzzy
+msgid "Remove this item"
+msgstr "Удалить текущую картинку"
+
+#: ../woocommerce/cart/cart.php:88
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:138
+msgid "Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:138 ../woocommerce/checkout/form-coupon.php:19
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:145
+#, fuzzy
+msgid "Update Cart"
+msgstr "Обновить"
+
+#: ../woocommerce/cart/cart.php:163
+msgid "Proceed to Checkout &rarr;"
+msgstr ""
+
+#: ../woocommerce/cart/cross-sells.php:29
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/empty.php:7
+#, fuzzy
+msgid "Your cart is currently empty."
+msgstr "Ваша корзина пуста"
+
+#: ../woocommerce/cart/empty.php:11
+msgid "&larr; Return To Shop"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:14
+#, fuzzy
+msgid "Calculate Shipping"
+msgstr "Посчитать цену доставки"
+
+#: ../woocommerce/cart/shipping-calculator.php:18
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:38
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:50
+#, fuzzy
+msgid "State"
+msgstr "Состояние"
+
+#: ../woocommerce/cart/shipping-calculator.php:57
+msgid "Postcode/Zip"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:57
+msgid "Postcode"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:60
+#, fuzzy
+msgid "Update Totals"
+msgstr "Обновить"
+
+#: ../woocommerce/checkout/cart-errors.php:9
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: ../woocommerce/checkout/cart-errors.php:13
+msgid "&larr; Return To Cart"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:10
+#, fuzzy
+msgid "Billing &amp; Shipping"
+msgstr " &nbsp; Доставка: %s\n"
+
+#: ../woocommerce/checkout/form-billing.php:14
+#: ../woocommerce/myaccount/form-edit-address.php:21
+#: ../woocommerce/myaccount/my-address.php:20
+#, fuzzy
+msgid "Billing Address"
+msgstr "Адрес доставки"
+
+#: ../woocommerce/checkout/form-billing.php:33
+#, fuzzy
+msgid "Create an account?"
+msgstr "Создать учетную запись"
+
+#: ../woocommerce/checkout/form-billing.php:42
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login with your username at the top of the page."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:34
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:58
+#, fuzzy
+msgid "Your order"
+msgstr "Ваш логотип"
+
+#: ../woocommerce/checkout/form-coupon.php:7
+#, fuzzy
+msgid "Have a coupon?"
+msgstr "Оставить комментарий"
+
+#: ../woocommerce/checkout/form-coupon.php:10
+msgid "Click here to enter your code"
+msgstr ""
+
+#: ../woocommerce/checkout/form-coupon.php:15
+#, fuzzy
+msgid "Coupon code"
+msgstr "Введите купон скидки"
+
+#: ../woocommerce/checkout/form-login.php:8
+msgid "Already registered?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:11
+#, fuzzy
+msgid "Click here to login"
+msgstr "Загрузить"
+
+#: ../woocommerce/checkout/form-login.php:13
+msgid ""
+"If you have shopped with us before, please enter your username and password "
+"in the boxes below. If you are a new customer please proceed to the Billing "
+"&amp; Shipping section."
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:14
+#, fuzzy
+msgid "Totals"
+msgstr "Всего"
+
+#: ../woocommerce/checkout/form-pay.php:70
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:79
+msgid "Pay for order"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:25
+#, fuzzy
+msgid "Ship to billing address?"
+msgstr "Такой же, как адрес оплаты:"
+
+#: ../woocommerce/checkout/form-shipping.php:28
+#: ../woocommerce/myaccount/form-edit-address.php:21
+#: ../woocommerce/myaccount/my-address.php:51
+msgid "Shipping Address"
+msgstr "Адрес доставки"
+
+#: ../woocommerce/checkout/review-order.php:27
+#, fuzzy
+msgid "Cart Subtotal"
+msgstr "Всего"
+
+#: ../woocommerce/checkout/review-order.php:34
+#, fuzzy
+msgid "Cart Discount"
+msgstr "Скидка"
+
+#: ../woocommerce/checkout/review-order.php:113
+msgid "Tax"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:124
+#, fuzzy
+msgid "Order Discount"
+msgstr "Скидка"
+
+#: ../woocommerce/checkout/review-order.php:133
+#, fuzzy
+msgid "Order Total"
+msgstr "Подробности заказа"
+
+#: ../woocommerce/checkout/review-order.php:151
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:237
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:239
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:248
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:248
+#, fuzzy
+msgid "Update totals"
+msgstr "Обновить"
+
+#: ../woocommerce/checkout/review-order.php:254
+msgid "Place order"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:258
+msgid "I have read and accept the"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:258
+#, fuzzy
+msgid "terms &amp; conditions"
+msgstr "Условиями"
+
+#: ../woocommerce/checkout/thankyou.php:13
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:17
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:19
+#, fuzzy
+msgid "Please attempt your purchase again."
+msgstr "Пожалуйста, введите имя пользователя и пароль."
+
+#: ../woocommerce/checkout/thankyou.php:24
+#: ../woocommerce/myaccount/my-orders.php:58
+msgid "Pay"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:56
+#: ../woocommerce/checkout/thankyou.php:93
+#, fuzzy
+msgid "Thank you. Your order has been received."
+msgstr "Спасибо, ваши настройки сохранены."
+
+#: ../woocommerce/checkout/thankyou.php:60
+msgid "Order:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:64
+#, fuzzy
+msgid "Date:"
+msgstr "Дата"
+
+#: ../woocommerce/checkout/thankyou.php:73
+#, fuzzy
+msgid "Payment method:"
+msgstr "Способ оплаты"
+
+#: ../woocommerce/loop/add-to-cart.php:13
+#: ../woocommerce/loop/add-to-cart.php:30
+msgid "Details"
+msgstr "Подробнее"
+
+#: ../woocommerce/loop/add-to-cart.php:22
+#, fuzzy
+msgid "Select options"
+msgstr "Пожертвование"
+
+#: ../woocommerce/loop/add-to-cart.php:26
+#, fuzzy
+msgid "View options"
+msgstr "Пожертвование"
+
+#: ../woocommerce/loop/add-to-cart.php:34
+#: ../woocommerce/single-product/add-to-cart/grouped.php:43
+#: ../woocommerce/single-product/add-to-cart/variable.php:68
+#: ../woocommerce/single-product/add-to-cart/variable.php:153
+#, fuzzy
+msgid "Add to cart"
+msgstr "В корзину"
+
+#: ../woocommerce/loop/sale-flash.php:10
+#: ../woocommerce/single-product/sale-flash.php:10
+msgid "Sale!"
+msgstr ""
+
+#: ../woocommerce/loop/sorting.php:10
+#, fuzzy
+msgid "Default sorting"
+msgstr "Вид по умолчанию"
+
+#: ../woocommerce/loop/sorting.php:11
+msgid "Sort alphabetically"
+msgstr ""
+
+#: ../woocommerce/loop/sorting.php:12
+msgid "Sort by most recent"
+msgstr ""
+
+#: ../woocommerce/loop/sorting.php:13
+msgid "Sort by price"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-change-password.php:14
+#, fuzzy
+msgid "New password"
+msgstr "Пароль"
+
+#: ../woocommerce/myaccount/form-change-password.php:18
+msgid "Re-enter new password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-change-password.php:23
+msgid "Save"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:36
+#, fuzzy
+msgid "Save Address"
+msgstr "Адрес 1"
+
+#: ../woocommerce/myaccount/form-login.php:15
+#: ../woocommerce/myaccount/form-login.php:29
+#: ../woocommerce/shop/form-login.php:25
+msgid "Login"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:18
+#: ../woocommerce/myaccount/form-login.php:43
+#: ../woocommerce/shop/form-login.php:14
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: ../woocommerce/myaccount/form-login.php:22
+#: ../woocommerce/myaccount/form-login.php:53
+#: ../woocommerce/shop/form-login.php:18
+msgid "Password"
+msgstr "Пароль"
+
+#: ../woocommerce/myaccount/form-login.php:30
+#: ../woocommerce/shop/form-login.php:27
+#, fuzzy
+msgid "Lost Password?"
+msgstr "Пароль"
+
+#: ../woocommerce/myaccount/form-login.php:39
+#: ../woocommerce/myaccount/form-login.php:69
+msgid "Register"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:57
+msgid "Re-enter password"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:11
+#, php-format
+msgid ""
+"Hello, <strong>%s</strong>. From your account dashboard you can view your "
+"recent orders, manage your shipping and billing addresses and <a href=\"%s"
+"\">change your password</a>."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:16
+msgid "Available downloads"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:19
+msgid "&nbsp;download remaining"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:24
+msgid "Recent Orders"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:27
+#, fuzzy
+msgid "My Address"
+msgstr "Адрес 1"
+
+#: ../woocommerce/myaccount/my-account.php:28
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:39
+#, fuzzy
+msgid "You have not set up a billing address yet."
+msgstr "Такой же, как адрес оплаты:"
+
+#: ../woocommerce/myaccount/my-address.php:70
+msgid "You have not set up a shipping address yet."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:28
+msgid "Order"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:29
+msgid "Ship to"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:31
+msgid "Status"
+msgstr "Состояние"
+
+#: ../woocommerce/myaccount/my-orders.php:52
+#, fuzzy
+msgid "Click to cancel this order"
+msgstr "Загрузить"
+
+#: ../woocommerce/myaccount/my-orders.php:52
+msgid "Cancel"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:61
+#, fuzzy
+msgid "View"
+msgstr "Просмотр в виде сетки"
+
+#: ../woocommerce/myaccount/my-orders.php:73
+msgid "You have no recent orders."
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:63
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:86
+#: ../woocommerce/shop/breadcrumb.php:170
+#, fuzzy
+msgid "Search results for &ldquo;"
+msgstr "Результаты поиска: %s"
+
+#: ../woocommerce/shop/breadcrumb.php:134
+msgid "Error 404"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:174
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:179
+msgid "Author:"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:185
+#, fuzzy
+msgid "Page"
+msgstr "Страницы:"
+
+#: ../woocommerce/single-product/meta.php:38
+msgid "SKU:"
+msgstr ""
+
+#: ../woocommerce/single-product/meta.php:41
+#, fuzzy
+msgid "Category:"
+msgstr "Архив категории: %s"
+
+#: ../woocommerce/single-product/meta.php:43
+msgid "Tags:"
+msgstr ""
+
+#: ../woocommerce/single-product/product-attributes.php:22
+msgid "Weight"
+msgstr ""
+
+#: ../woocommerce/single-product/product-attributes.php:31
+msgid "Dimensions"
+msgstr ""
+
+#: ../woocommerce/single-product/related.php:31
+#, fuzzy
+msgid "Related Products"
+msgstr "Демонстрационный товар"
+
+#: ../woocommerce/single-product/review.php:22
+#, fuzzy
+msgid "Your comment is awaiting approval"
+msgstr "Ваш комментарий ожидает проверки."
+
+#: ../woocommerce/single-product/review.php:29
+msgid "verified owner"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:31
+msgid "M jS Y"
+msgstr ""
+
+#: ../woocommerce/single-product/up-sells.php:29
+msgid "You May Also Like:"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/simple.php:34
+#, fuzzy
+msgid "add to cart"
+msgstr "В корзину"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:26
+#: ../woocommerce/single-product/add-to-cart/variable.php:93
+msgid "Choose an option"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:58
+#: ../woocommerce/single-product/add-to-cart/variable.php:143
+msgid "Clear selection"
+msgstr ""
+
+#: ../woocommerce/single-product/tabs/description.php:14
+#, fuzzy
+msgid "Product Description"
+msgstr "Товар отсутствует на складе"
+
+#~ msgid "Purchase History"
+#~ msgstr "История покупок"
+
+#~ msgid "Your Details"
+#~ msgstr "Ваши данные"
+
+#~ msgid "Your Downloads"
+#~ msgstr "Ваши заказчки"
+
+#~ msgid "Please login to see your account information."
+#~ msgstr ""
+#~ "Пожалуйста, авторизируйтесь, чтобы увидеть ваши персональные данные."
+
+#~ msgid "Save Profile"
+#~ msgstr "Сохранить персональные данные"
+
+#~ msgid "File Names"
+#~ msgstr "Имена файлов"
+
+#~ msgid "Downloads Left"
+#~ msgstr "Осталось закачек"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#~ msgid "You have not purchased any downloadable products yet."
+#~ msgstr "Вы еще не купили ни одного товара для закачки."
+
+#~ msgid "Payment Method"
+#~ msgstr "Способ оплаты"
+
+#~ msgid "No transactions for this month."
+#~ msgstr "За этот месяц оплаты не было."
+
+#~ msgid "There have not been any purchases yet."
+#~ msgstr "За этот месяц покупок не было"
+
+#, fuzzy
+#~ msgid "Order Subtotal"
+#~ msgstr "Всего"
+
+#, fuzzy
+#~ msgid "Cart Totals"
+#~ msgstr "Итого:"
+
+#, fuzzy
+#~ msgid "[Remove]"
+#~ msgstr "Удалить"
+
+#~ msgid "Coupon Applied."
+#~ msgstr "Купон принят"
+
+#~ msgid "Create an Account"
+#~ msgstr "Создать учетную запись"
+
+#~ msgid "I agree to The "
+#~ msgstr "Я согласен с"
+
+#~ msgid "Terms and Conditions"
+#~ msgstr "Условиями"
+
+#, fuzzy
+#~ msgid "Customer details"
+#~ msgstr "Информация о покупателе"
+
+#, fuzzy
+#~ msgid "Email:"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~ msgid "Hello, a note has just been added to your order:"
+#~ msgstr "Товар успешно добавлен в вашу корзину!"
+
+#, fuzzy
+#~ msgid "Billing address"
+#~ msgstr "Такой же, как адрес оплаты:"
+
+#, fuzzy
+#~ msgid "Shipping address"
+#~ msgstr "Адрес доставки"
+
+#, fuzzy
+#~ msgid "Download:"
+#~ msgstr "Ваши заказчки"
+
+#, fuzzy
+#~ msgid "Order ID"
+#~ msgstr "Подробности заказа"
+
+#, fuzzy
+#~ msgid "Billing Email"
+#~ msgstr "Оплата в Штате"
+
+#~ msgid "Order Details"
+#~ msgstr "Подробности заказа"
+
+#, fuzzy
+#~ msgid "Order Again"
+#~ msgstr "Подробности заказа"
+
+#, fuzzy
+#~ msgid "Order Updates"
+#~ msgstr "Состояние заказа"
+
+#, fuzzy
+#~ msgid "Site Top Widget"
+#~ msgstr "Footer Widget "
+
+#~ msgid ""
+#~ "Please set the 3 featured products in your \"Homepage Product Slider\" "
+#~ "settings in Appearance->SP Mio Theme Options."
+#~ msgstr ""
+#~ "Пожалуйста, установите 3 специальных товара в \"Homepage Prduct Slider\" "
+#~ "установках, которые находятся в меню Appearance->SP Mio Theme Options."
+
+#, fuzzy
+#~ msgid "View More"
+#~ msgstr "Читать дальше"
+
+#~ msgid ""
+#~ "Sorry your transaction was not accepted.<br /><a href=\"%1$s\">Click here "
+#~ "to go back to checkout page</a>."
+#~ msgstr ""
+#~ "Извините, ваш заказ не принят.<br /><a href=\"%1$s\">Нажмите здесь, чтобы "
+#~ "вернуться на страницу оформления заказа</a>."
+
+#~ msgid "The Transaction was successful"
+#~ msgstr "Заказ успешно отправлен"
+
+#~ msgid " - Shipping: %s\n"
+#~ msgstr "Доставка: %s\n"
+
+#~ msgid "Tax Included"
+#~ msgstr "Налоги включены"
+
+#~ msgid "Total Shipping: %s\n"
+#~ msgstr "Всего доставка: %s\n"
+
+#~ msgid "Total: %s\n"
+#~ msgstr "Итого: %s\n"
+
+#~ msgid "Total Tax"
+#~ msgstr "Всего налогов"
+
+#~ msgid "<hr>Total Shipping: %s\n"
+#~ msgstr "<hr>Всего доставка: %s\n"
+
+#~ msgid "Purchase # %s\n"
+#~ msgstr "Покупка # %s\n"
+
+#~ msgid "Your Transaction ID"
+#~ msgstr "Ваш номер транзакции"
+
+#~ msgid "Transaction ID"
+#~ msgstr "Номер транзакции"
+
+#~ msgid ""
+#~ "Thank you, your purchase is pending, you will be sent an email once the "
+#~ "order clears."
+#~ msgstr ""
+#~ "Спасибо, ваш заказ ожидает, вы будете уведомлены по e-mail когда данные "
+#~ "будут получены"
+
+#~ msgid "Order Pending: Payment Required"
+#~ msgstr "Заказ отложен: требуется оплата"
+
+#~ msgid "Purchase Receipt"
+#~ msgstr "Отчет о покупке"
+
+#~ msgid "Delivery State"
+#~ msgstr "Доставка в Штат"
+
+#~ msgid "Purchase Report"
+#~ msgstr "Отчет о покупке"
+
+#~ msgid "First Name"
+#~ msgstr "Имя"
+
+#~ msgid "Please enter a valid name"
+#~ msgstr "Пожалуйста, укажите Имя"
+
+#~ msgid "Last Name"
+#~ msgstr "Фамилия"
+
+#~ msgid "Please enter a valid surname"
+#~ msgstr "Пожлауйста, укажите Фамилию"
+
+#~ msgid "Please enter a valid email address"
+#~ msgstr "Пожалуйста, укажите e-mail адрес"
+
+#~ msgid "Address 2"
+#~ msgstr "Адрес 2"
+
+#~ msgid "Please enter a valid address"
+#~ msgstr "Пожалуйста, укажите адрес"
+
+#~ msgid "City"
+#~ msgstr "Город"
+
+#~ msgid "Please enter your town or city."
+#~ msgstr "Пожалуйста, укажите ваш город"
+
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#~ msgid "Please enter a valid phone number"
+#~ msgstr "Пожалуйста, укажите телефонный номер"
+
+#~ msgid "Country"
+#~ msgstr "Страна"
+
+#~ msgid "Please select your country from the list."
+#~ msgstr "Пожалуйста, выберите страну из списка."
+
+#~ msgid ""
+#~ "Please enter a valid <span class=\"wpsc_error_msg_field_name\">%s</span>."
+#~ msgstr ""
+#~ "Пожалуйста введите <span class=\"wpsc_error_msg_field_name\">%s</span>."
+
+#~ msgid "GST"
+#~ msgstr "GST"
+
+#~ msgid "Total Shipping"
+#~ msgstr "Всего доставка"
+
+#~ msgid "Final Total"
+#~ msgstr "Итого"
+
+#~ msgid "Purchase #"
+#~ msgstr "Покупка №"
+
+#~ msgid "Transaction Id"
+#~ msgstr "Номер транзакции"
+
+#~ msgid "Return to %s"
+#~ msgstr "Вернуться %s"
+
+#~ msgid "<span class=\"%1$s\">Published</span> %2$s"
+#~ msgstr "<span class=\"%1$s\">Опубликовано</span> %2$s"
+
+#~ msgid "Full size is %s pixels"
+#~ msgstr "Полный размер %s пикселов"
+
+#~ msgid "Link to full-size image"
+#~ msgstr "Ссылка на картинку большого размера"
+
+#~ msgid "Newer posts &gt;"
+#~ msgstr "Новые статьи&gt;"
+
+#~ msgid "This gallery contains <a %1$s>%2$s photos</a>."
+#~ msgstr "Галерея содержит <a %1$s>%2$s фотографий</a>."
+
+#~ msgid "More Galleries"
+#~ msgstr "Продолжение Галлереи"
+
+#~ msgid "No Image"
+#~ msgstr "Нет картинки"
+
+#~ msgid "Gallery"
+#~ msgstr "Галерея"
+
+#~ msgid ""
+#~ "You will need to add in your products and set the options for your "
+#~ "product to show here."
+#~ msgstr "Вы должны выбрать товар и уточнить его параметры"
+
+#~ msgid "Updating cart..."
+#~ msgstr "Обновляем корзину..."
+
+#~ msgid "There is a new version of Gold Cart for WP e-Commerce available."
+#~ msgstr "Доступна новая версия Gold Cart for WP e-Commerce."
+
+#~ msgid "List View"
+#~ msgstr "Просмотр в виде списка"
+
+#~ msgid "List"
+#~ msgstr "Список"
+
+#~ msgid "People who bought this item also bought:"
+#~ msgstr "Люди"
+
+#, fuzzy
+#~ msgid "%s item"
+#~ msgstr "%s товар"

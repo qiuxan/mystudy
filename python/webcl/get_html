@@ -1,0 +1,4 @@
+#-*-coding:utf8-*-
+import requests
+html = requests.get('https://www.spotlightstores.com/search?text=quilt')
+print html.text
